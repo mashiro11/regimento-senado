@@ -14,17 +14,17 @@ const artigos = {
     inciso:{
       1:{
         caput:'anualmente, de 2 de fevereiro a 17 de julho e de 1º de agosto a 22 de dezembro, durante as sessões legislativas ordinárias, observando o disposto no art.57 da Constituição;',
-        citacao: {
+        citacao: [{
           texto: 'art.57 da Constituição',
           link: artLink(57)
-        }
+        }]
       },
       2:{
         caput:'quando convocado extaordinariamente o Congresso Nacional (Const, art 57 §§ 6º a 8º).',
-        citacao: {
+        citacao: [{
           texto: '(Const, art 57 §§ 6º a 8º)',
           link: artLink(57)
-        }
+        }]
       }
     },
     paragrafos:{
