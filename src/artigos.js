@@ -37,4 +37,8 @@ const artigos = {
   413:{}
 }
 
-export default artigos
+function getArtigos(){
+  return arguments.length == 2 ? Object.entries(artigos).slice(arguments[0]-1, arguments[1]-1) : [artigos[arguments[0]]]
+}
+
+export { artigos, getArtigos }

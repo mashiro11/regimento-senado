@@ -1,16 +1,17 @@
-import artigos from './artigos'
+import { getArtigos } from './artigos'
 import definicoes from './definicoes'
+
 const regimento = {
   'DO FUNCIONAMENTO': {
     capitulos:{
       'DA SEDE':{
-        artigos:[1,1]
+        artigos: getArtigos(1)
       },
       'DAS SESSÕES':{
-        artigos:[2,2]
+        artigos: getArtigos(2)
       },
       'DAS REUNIÕES PREPARATÓRIAS':{
-        artigos:[3,3]
+        artigos: getArtigos(3)
       }
     }
   },
