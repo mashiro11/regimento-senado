@@ -31,25 +31,30 @@ const Artigo = ({artigo, index}) => {
   return(
     <div>
       <span>Art. {index}º </span>
-      {artigo.citacao ?
-        formatCitacao(onClick, artigo.caput, artigo.citacao)
-      : <span>{artigo.caput}</span>}
-      {artigo.inciso?
-        <div>
-          {Object.keys(artigo.inciso).map((numero, index)=>
-            artigo.inciso[numero].citacao?
-            <div key={index}>
-              <div>{romanize(index + 1)} - {formatCitacao(onClick, artigo.inciso[numero].caput, artigo.inciso[numero].citacao, 0)}</div>
-            </div>
-            :
-            <div  key={index}>
-              <div>{romanize(index + 1)} - {artigo.inciso[numero].caput}</div>
-            </div>
-          )}
-        </div>
-        :null
-      }
-      <br/>
+      {artigo ?
+        <>
+        {artigo.citacao ?
+          formatCitacao(onClick, artigo.caput, artigo.citacao)
+          : <span>{artigo.caput}</span>
+        }
+
+        {artigo.inciso?
+          <div>
+            {Object.keys(artigo.inciso).map((numero, index)=>
+              artigo.inciso[numero].citacao?
+              <div key={index}>
+                <div>{romanize(index + 1)} - {formatCitacao(onClick, artigo.inciso[numero].caput, artigo.inciso[numero].citacao, 0)}</div>
+              </div>
+              :
+              <div  key={index}>
+                <div>{romanize(index + 1)} - {artigo.inciso[numero].caput}</div>
+              </div>
+            )}
+          </div>
+          :null
+        }
+        <br/>
+
         {artigo.paragrafos?
           <div>
           {Object.keys(artigo.paragrafos).length === 1?
@@ -60,6 +65,8 @@ const Artigo = ({artigo, index}) => {
           )}
           </div>
         :null}
+      </>  
+    : null}
     </div>
   )
 }
