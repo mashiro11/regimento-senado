@@ -11,6 +11,9 @@ import romanize from '../../romanize'
 
 const GroupRenderer = ({groupName, unit, index}) => {
   const unitKey = Object.keys(unit)[0]
+  if(unit[unitKey].artigos){
+    console.log('artigos:', unit[unitKey].artigos)
+  }
   return (
     <ExpansionPanel>
       <ExpansionPanelSummary>{groupName} {romanize(index + 1)} - {unitKey}</ExpansionPanelSummary>

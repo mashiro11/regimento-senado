@@ -1,5 +1,5 @@
 import { getArtigos } from './artigos'
-import definicoes from './definicoes'
+//import definicoes from './definicoes'
 
 const regimento = {
   groupName: "Título",

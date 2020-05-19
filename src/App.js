@@ -1,4 +1,4 @@
-import React, { useState, useReducer } from 'react';
+import React from 'react';
 import './App.css';
 
 import reducer from './reducer'
@@ -8,7 +8,7 @@ import GroupRenderer from './components/GroupRenderer'
 export const AppDispatch = React.createContext(null)
 
 function App() {
-  const [state, dispatch] = useReducer(reducer, {citacaoLink: ''})
+  const [state, dispatch] = React.useReducer(reducer, {citacaoLink: ''})
 
   return (
     <div className="App">
@@ -23,7 +23,7 @@ function App() {
                 <GroupRenderer groupName={regimento.groupName} unit={{[groupKey]:regimento.group[groupKey]}} index={index} key={index} />
               )}
             </div>
-            <iframe width={'100%'} height={'100%'} src={state.citacaoLink}>Citacao</iframe>
+            <iframe title={'Consituição Federal 1988'} width={'100%'} height={'100%'} src={state.citacaoLink}>Citacao</iframe>
           </div>
         </div>
       </AppDispatch.Provider>

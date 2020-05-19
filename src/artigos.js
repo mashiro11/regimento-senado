@@ -937,7 +937,6 @@ Art. 101-A. O Ministro de Estado da Justiça comparecerá anualmente à Comissã
   /*
   */
   },
-  1000:{
   106:{},
   107:{},
   108:{},
@@ -1246,14 +1245,17 @@ Art. 101-A. O Ministro de Estado da Justiça comparecerá anualmente à Comissã
   411:{},
   412:{},
   413:{}
-  }
 }
 
 function getArtigos(){
-  return arguments.length == 2 ?
+  /*
+  if(arguments.length === 2) console.log('arguments:', arguments[0], arguments[1])
+  else console.log('arguments:', arguments[0])
+  */
+  return arguments.length === 2 ?
       Object.keys(artigos)
-      .slice(arguments[0]-1, arguments[1]-1)
-      .reduce( (obj, numArtigo) => {return {...obj, [numArtigo] : artigos[numArtigo]}}, {})
+      .slice(arguments[0]-1, arguments[1])
+      .reduce( (obj, numArtigo) => {return {...obj, [numArtigo] : artigos[numArtigo]} }, {})
       : {[arguments[0]]: artigos[arguments[0]]}
 }
 

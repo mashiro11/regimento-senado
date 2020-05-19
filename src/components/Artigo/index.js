@@ -1,13 +1,7 @@
 import React, {useContext} from 'react'
-import List from '@material-ui/core/List'
-import ListItem from '@material-ui/core/ListItem'
-import ExpansionPanel from '@material-ui/core/ExpansionPanel'
-import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
-import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
 import Button from '@material-ui/core/Button'
 
 import Paragrafo from '../Paragrafo'
-import Citacao from '../Citacao'
 import romanize from '../../romanize'
 
 import { AppDispatch } from '../../App.js'
@@ -65,7 +59,7 @@ const Artigo = ({artigo, index}) => {
           )}
           </div>
         :null}
-      </>  
+      </>
     : null}
     </div>
   )
