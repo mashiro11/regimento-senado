@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/regimento_senado/static/css/main.cfda8877.chunk.css",
+    "main.js": "/regimento_senado/static/js/main.bac34f70.chunk.js",
+    "main.js.map": "/regimento_senado/static/js/main.bac34f70.chunk.js.map",
+    "runtime-main.js": "/regimento_senado/static/js/runtime-main.cf42337c.js",
+    "runtime-main.js.map": "/regimento_senado/static/js/runtime-main.cf42337c.js.map",
+    "static/js/2.6b29211c.chunk.js": "/regimento_senado/static/js/2.6b29211c.chunk.js",
+    "static/js/2.6b29211c.chunk.js.map": "/regimento_senado/static/js/2.6b29211c.chunk.js.map",
+    "index.html": "/regimento_senado/index.html",
+    "precache-manifest.c35c5d467e08db7be8d21504b944e2c2.js": "/regimento_senado/precache-manifest.c35c5d467e08db7be8d21504b944e2c2.js",
+    "service-worker.js": "/regimento_senado/service-worker.js",
+    "static/css/main.cfda8877.chunk.css.map": "/regimento_senado/static/css/main.cfda8877.chunk.css.map",
+    "static/js/2.6b29211c.chunk.js.LICENSE.txt": "/regimento_senado/static/js/2.6b29211c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf42337c.js",
+    "static/js/2.6b29211c.chunk.js",
+    "static/css/main.cfda8877.chunk.css",
+    "static/js/main.bac34f70.chunk.js"
+  ]
+}
