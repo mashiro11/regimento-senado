@@ -15,7 +15,7 @@ const GroupRenderer = ({groupName, unit, index}) => {
     console.log('artigos:', unit[unitKey].artigos)
   }
   return (
-    <ExpansionPanel>
+    <ExpansionPanel style={index % 2 === 0 ? {backgroundColor: '#EEEEEE'} :{}}>
       <ExpansionPanelSummary>{groupName} {romanize(index + 1)} - {unitKey}</ExpansionPanelSummary>
       <ExpansionPanelDetails>
         <List>

@@ -918,333 +918,1820 @@ Art. 101-A. O Ministro de Estado da Justiça comparecerá anualmente à Comissã
     */
   },
   102:{
-    caput: ''
+    caput: 'À Comissão de Educação, Cultura e Esporte compete opinar sobre proposições que versem sobre:'
   /*
+  I - normas gerais sobre educação, cultura, ensino e desportos, instituições educativas e culturais, diretrizes e bases da educação nacional e salário-educação;
+II - diversão e espetáculos públicos, criações artísticas, datas comemorativas e homenagens cívicas;
+III - formação e aperfeiçoamento de recursos humanos;
+IV - (Revogado);
+V - (Revogado);
+VI - outros assuntos correlatos.
+Art. 102-A. À Comissão de Transparência, Governança, Fiscalização e Controle e Defesa do Consumidor, além da aplicação, no que couber, do disposto no art. 90 e sem prejuízo das atribuições das demais comissões, compete:
+I - exercer a fiscalização e o controle dos atos do Poder Executivo, incluídos os da administração indireta, podendo, para esse fim:
+a) avaliar a eficácia, eficiência e economicidade dos projetos e programas de governo no plano nacional, no regional e no setorial de desenvolvimento, emitindo parecer conclusivo;
+b) apreciar a compatibilidade da execução orçamentária com os planos e programas governamentais e destes com os objetivos aprovados em lei;
+c) solicitar, por escrito, informações à administração direta e indireta, bem como requisitar documentos públicos necessários à elucidação do ato objeto de fiscalização;
+d) avaliar as contas dos administradores e demais responsáveis por dinheiros, bens e valores públicos da administração direta e indireta, incluídas as fundações e sociedades instituídas e mantidas pelo poder público federal, notadamente quando houver indícios de perda, extravio ou irregularidade de qualquer natureza de que resulte prejuízo ao Erário;
+e) providenciar a efetivação de perícias, bem como solicitar ao Tribunal de Contas da União que realize inspeções ou auditorias de natureza contábil, financeira, orçamentária, operacional e patrimonial nas unidades administrativas da União e demais entidades referidas na alínea d;
+f) apreciar as contas nacionais das empresas supranacionais de cujo capital social a União participe de forma direta ou indireta, bem assim a aplicação de quaisquer recursos repassados mediante convênio, acordo, ajuste ou outros instrumentos congêneres, a Estado, ao Distrito Federal ou a Município;
+g) promover a interação do Senado Federal com os órgãos do Poder Executivo que, pela natureza de suas atividades, possam dispor ou gerar dados de que necessite para o exercício de fiscalização e controle;
+h) promover a interação do Senado Federal com os órgãos do Poder Judiciário e do Ministério Público que, pela natureza de suas atividades, possam propiciar ou gerar dados de que necessite para o exercício de fiscalização e controle;
+i) propor ao Plenário do Senado as providências cabíveis em relação aos resultados da avaliação, inclusive quanto ao resultado das diligências realizadas pelo Tribunal de Contas da União;
+II - opinar sobre matérias pertinentes aos seguintes temas:
+a) prevenção à corrupção;
+b) acompanhamento e modernização das práticas gerenciais na administração pública federal direta e indireta;
+c) prestação eficaz, efetiva e eficiente de serviços públicos;
+d) transparência e prestação de contas e de informações à população, com foco na responsabilidade da gestão fiscal e dos gastos públicos, bem como nas necessidades dos cidadãos;
+e) difusão e incentivo, na administração pública, de novos meios de prestação de informações à sociedade, tais como redes, sítios e portais eletrônicos, e apoio a Estados e Municípios para a implantação desses meios;
+III - opinar sobre assuntos pertinentes à defesa do consumidor, especialmente:
+a) estudar, elaborar e propor normas e medidas voltadas à melhoria contínua das relações de mercado, em especial as que envolvem fornecedores e consumidores;
+b) aperfeiçoar os instrumentos legislativos reguladores, contratuais e penais, referentes aos direitos dos consumidores e dos fornecedores, com ênfase em condições, limites e uso de informações, responsabilidade civil, respeito à privacidade, aos direitos autorais, às patentes e similares;
+c) acompanhar as políticas e as ações desenvolvidas pelo Poder Público relativas à defesa dos direitos do consumidor, à defesa da concorrência e à repressão da formação e da atuação ilícita de monopólios;
+d) receber denúncias e denunciar práticas referentes a abuso do poder econômico, qualidade e apresentação de produtos, técnicas de propaganda e publicidade nocivas ou enganosas;
+e) avaliar as relações entre custo e preço de produtos, bens e serviços, com vistas a estabelecer normas de repressão à usura, aos lucros excessivos, ao aumento indiscriminado de preços e à cartelização de segmentos do mercado;
+f) analisar as condições de concorrência com ênfase na defesa dos produtores e dos fornecedores nacionais, considerados os interesses dos consumidores e a soberania nacional;
+g) gerar e disponibilizar estudos, dados estatísticos e informações, no âmbito de suas competências.
+Parágrafo único. No exercício da competência de fiscalização e controle prevista no inciso I do caput, a Comissão de Transparência, Governança, Fiscalização e Controle e Defesa do Consumidor:
+I - remeterá cópia da documentação pertinente ao Ministério Público, a fim de que este promova a ação cabível, de natureza cível ou penal, se for constatada a existência de irregularidade;
+II - poderá atuar, mediante solicitação, em colaboração com as comissões permanentes e temporárias, incluídas as comissões parlamentares de inquérito, com vistas ao adequado exercício de suas atividades.
+Art. 102-B. A fiscalização e o controle dos atos do Poder Executivo, inclusive os da administração indireta, pela Comissão de Transparência, Governança, Fiscalização e Controle e Defesa do Consumidor obedecerão às seguintes regras:
+I - a proposta de fiscalização e controle poderá ser apresentada por qualquer membro ou Senador à Comissão, com específica indicação do ato e fundamentação da providência objetivada;
+II - a proposta será relatada previamente, quanto à oportunidade e conveniência da medida e ao alcance jurídico, administrativo, político, econômico, social ou orçamentário do ato impugnado, definindo-se o plano de execução e a metodologia de avaliação;
+III - aprovado o relatório prévio pela Comissão, o relator poderá solicitar os recursos e o assessoramento necessários ao bom desempenho da Comissão, incumbindo à Mesa e à Administração da Casa o atendimento preferencial das providências requeridas. Rejeitado o relatório, a matéria será encaminhada ao Arquivo;
+IV - o relatório final da fiscalização e controle, em termos de comprovação da legalidade do ato, avaliação política, administrativa, social e econômica de sua edição, e quanto à eficácia dos
+resultados sobre a gestão orçamentária, financeira e patrimonial, obedecerá, no que concerne à tramitação, as normas do art. 102-C.
+Parágrafo único. A Comissão, para a execução das atividades de que trata este artigo, poderá solicitar ao Tribunal de Contas da União as providências ou informações previstas no art. 71, IV e VII, da Constituição Federal.
+Art. 102-C. Ao termo dos trabalhos, a Comissão apresentará relatório circunstanciado, com suas conclusões, que será publicado no Diário do Senado Federal e encaminhado.
+I - à Mesa, para as providências de alçada desta, ou ao Plenário, oferecendo, conforme o caso, projeto de lei, de decreto legislativo, de resolução ou indicação;
+II - ao Ministério Público ou à Advocacia-Geral da União, com cópia da documentação, para que promova a responsabilidade civil ou criminal por infrações apuradas e adote outras medidas decorrentes de suas funções institucionais;
+III - ao Poder Executivo, para adotar as providências saneadoras de caráter disciplinar e administrativo decorrentes do disposto no art. 37, §§ 2º a 6º, da Constituição Federal, e demais disposições constitucionais e legais aplicáveis;
+IV - à comissão permanente que tenha maior pertinência com a matéria, a qual incumbirá o atendimento do prescrito no inciso III;
+V - à Comissão Mista de Planos, Orçamentos Públicos e Fiscalização e ao Tribunal de Contas da União, para as providências previstas no art. 71 da Constituição Federal.
+Parágrafo único. Nos casos dos incisos II, III e V a remessa será feita pelo Presidente do Senado.
+Art. 102-D. Aplicam-se à Comissão de Transparência, Governança, Fiscalização e Controle e Defesa do Consumidor as normas regimentais pertinentes às demais comissões permanentes, no que não conflitarem com os termos das disposições constantes dos arts. 102-A a 102-C.
+§ 1º Ocorrendo a hipótese de exercício concorrente de competência fiscalizadora por duas ou mais comissões sobre os mesmos fatos, os trabalhos se desdobrarão em reuniões conjuntas, por iniciativa do Presidente de um dos órgãos ou de um ou mais de seus membros.
+§ 2º A Comissão de Transparência, Governança, Fiscalização e Controle e Defesa do Consumidor poderá, se houver motivo suficiente, comunicar fatos investigados à comissão correspondente da Câmara dos Deputados, para que esta adote a providência que considerar cabível.
+Art. 102-E. À Comissão de Direitos Humanos e Legislação Participativa compete opinar sobre:
+I - sugestões legislativas apresentadas por associações e órgãos de classe, sindicatos e entidades organizadas da sociedade civil, exceto partidos políticos com representação política no Congresso Nacional;
+II - pareceres técnicos, exposições e propostas oriundas de entidades científicas e culturais e de qualquer das entidades mencionadas no inciso I;
+III - garantia e promoção dos direitos humanos;
+IV - direitos da mulher;
+V - proteção à família;
+VI - proteção e integração social das pessoas portadoras de deficiências e de proteção à infância, à juventude e aos idosos;
+VII - fiscalização, acompanhamento, avaliação e controle das políticas governamentais relativas aos direitos humanos, aos direitos da mulher, aos direitos das minorias sociais ou étnicas, aos direitos dos estrangeiros, à proteção e integração das pessoas portadoras de deficiência e à proteção à infância, à juventude e aos idosos.
+Parágrafo único. No exercício da competência prevista nos incisos I e II do caput deste artigo, a Comissão de Direitos Humanos e Legislação Participativa observará:
+I - as sugestões legislativas que receberem parecer favorável da Comissão serão transformadas em proposição legislativa de sua autoria e encaminhadas à Mesa, para tramitação, ouvidas as comissões competentes para o exame do mérito;
+II - as sugestões que receberem parecer contrário serão encaminhadas ao Arquivo;
+III - aplicam-se às proposições decorrentes de sugestões legislativas, no que couber, as disposições regimentais relativas ao trâmite dos projetos de lei nas comissões, ressalvado o disposto no inciso I, in fine, deste parágrafo único.
+Art. 102-F. À Comissão de Meio Ambiente compete opinar sobre assuntos pertinentes à defesa do meio ambiente, especialmente:
+I - proteção do meio ambiente, controle da poluição, conservação da natureza e defesa do solo, dos recursos naturais e genéticos, das florestas, da caça, da pesca, da fauna, da flora e dos recursos hídricos;
+II - política e sistema nacional de meio ambiente;
+III - preservação, conservação, exploração e manejo de florestas e da biodiversidade;
+IV - conservação e gerenciamento do uso do solo e dos recursos hídricos, no tocante ao meio ambiente e ao desenvolvimento sustentável;
+V - fiscalização dos alimentos e dos produtos e insumos agrícolas e pecuários, no tocante ao meio ambiente e ao desenvolvimento sustentável;
+VI - direito ambiental;
+VII - agências reguladoras na área de meio ambiente, inclusive a Agência Nacional de Águas (ANA);
+VIII - outros assuntos correlatos.
   */
   },
   103:{
-    caput: ''
+    caput: 'À Comissão de Relações Exteriores e Defesa Nacional compete emitir parecer sobre:'
   /*
+  I - proposições referentes aos atos e relações internacionais (Const., art. 49, I) e ao Ministério das Relações Exteriores;
+II - comércio exterior;
+III - indicação de nome para chefe de missão diplomática de caráter permanente junto a governos estrangeiros e das organizações internacionais de que o Brasil faça parte (Const., art. 52, IV);
+IV - (Revogado);
+V - Forças Armadas de terra, mar e ar, requisições militares, passagem de forças estrangeiras e sua permanência no território nacional, questões de fronteiras e limites do território nacional, espaço aéreo e marítimo, declaração de guerra e celebração de paz (Const., art. 49, II);
+VI - assuntos referentes à Organização das Nações Unidas e entidades internacionais de qualquer natureza;
+VII - autorização para o Presidente ou o Vice-Presidente da República se ausentarem do território nacional (Const., art. 49, III);
+VIII - outros assuntos correlatos.
+§ 1º A Comissão integrará, por um de seus membros, as comissões enviadas pelo Senado ao exterior, em assuntos pertinentes à política externa do País.
+§ 2º A Comissão promoverá audiências públicas, no início de cada sessão legislativa, com os Ministros das Relações Exteriores e da Defesa para prestarem informações no âmbito de suas competências.
   */
   },
   104:{
-    caput: ''
+    caput: 'À Comissão de Serviços de Infraestrutura compete opinar sobre matérias pertinentes a:'
   /*
+  I - transportes de terra, mar e ar, obras públicas em geral, minas, recursos geológicos, serviços de telecomunicações, parcerias público-privadas e agências reguladoras pertinentes;
+II - outros assuntos correlatos.
+Art. 104-A. À Comissão de Desenvolvimento Regional e Turismo compete opinar sobre matérias pertinentes a:
+I - proposições que tratem de assuntos referentes às desigualdades regionais e às políticas de desenvolvimento regional, dos Estados e dos Municípios;
+II - planos regionais de desenvolvimento econômico e social;
+III - programas, projetos, investimentos e incentivos voltados para o desenvolvimento regional;
+IV - integração regional;
+V - agências e organismos de desenvolvimento regional;
+VI - proposições que tratem de assuntos referentes ao turismo;
+VII - políticas relativas ao turismo;
+VIII - outros assuntos correlatos.
+Art. 104-B. À Comissão de Agricultura e Reforma Agrária compete opinar sobre proposições pertinentes aos seguintes temas:
+I - direito agrário;
+II - planejamento, acompanhamento e execução da política agrícola e fundiária;
+III - agricultura, pecuária e abastecimento;
+IV - agricultura familiar e segurança alimentar;
+V - silvicultura, aquicultura e pesca;
+VI - comercialização e fiscalização de produtos e insumos, inspeção e fiscalização de alimentos, vigilância e defesa sanitária animal e vegetal;
+VII - irrigação e drenagem;
+VIII - uso e conservação do solo na agricultura;
+IX - utilização e conservação, na agricultura, dos recursos hídricos e genéticos;
+X - política de investimentos e financiamentos agropecuários, seguro rural e endividamento rural;
+XI - tributação da atividade rural;
+XII - alienação ou concessão de terras públicas com área superior a dois mil e quinhentos hectares, aquisição ou arrendamento de propriedade rural por pessoa física ou jurídica estrangeira, definição da pequena e da média propriedade rural;
+XIII - uso ou posse temporária da terra e regularização dominial de terras rurais e de sua ocupação;
+XIV - colonização e reforma agrária;
+XV - cooperativismo e associativismo rurais;
+XVI - emprego, previdência e renda rurais;
+XVII - políticas de apoio às pequenas e médias propriedades rurais;
+XVIII - política de desenvolvimento tecnológico da agropecuária, mediante estímulos fiscais, financeiros e creditícios à pesquisa e experimentação agrícola, pesquisa, plantio e comercialização de organismos geneticamente modificados;
+XIX - extensão rural;
+XX - organização do ensino rural;
+XXI - outros assuntos correlatos.
+Art. 104-C. À Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática compete opinar sobre proposições pertinentes aos seguintes temas:
+I - desenvolvimento científico, tecnológico e inovação tecnológica;
+II - política nacional de ciência, tecnologia, inovação, comunicação e informática;
+III - organização institucional do setor;
+IV - acordos de cooperação e inovação com outros países e organismos internacionais na área;
+V - propriedade intelectual;
+VI - criações científicas e tecnológicas, informática, atividades nucleares de qualquer natureza, transporte e utilização de materiais radioativos, apoio e estímulo à pesquisa e criação de tecnologia;
+VII - comunicação, imprensa, radiodifusão, televisão, outorga e renovação de concessão, permissão e autorização para serviços de radiodifusão sonora e de sons e imagens;
+VIII - regulamentação, controle e questões éticas referentes a pesquisa e desenvolvimento científico e tecnológico, inovação tecnológica, comunicação e informática;
+IX - outros assuntos correlatos.
+Art. 104-D. À Comissão Senado do Futuro compete promover discussões sobre grandes temas e o futuro do País, bem como aprimorar a atuação do Senado nessas questões.
+Art. 104-E. (Revogado).
   */
   },
   105:{
+    caput: 'Às comissões temporárias compete o desempenho das atribuições que lhes forem expressamente deferidas.'
+  /*
+  */
+  },
+  106:{
+    caput: 'As comissões reunir-se-ão nas dependências do edifício do Senado Federal.'
+  /*
+  */
+  },
+  107:{
+    caput: 'As reuniões das comissões permanentes realizar-se-ão:'
+  /*
+  I - se ordinárias, semanalmente, durante a sessão legislativa ordinária, nos seguintes dias e horários:
+a) Comissão de Assuntos Econômicos: às terças-feiras, dez horas;
+b) Comissão de Serviços de Infraestrutura: às terças-feiras, quatorze horas;
+c) Comissão de Constituição, Justiça e Cidadania: às quartas-feiras, dez horas;
+d) Comissão de Assuntos Sociais: às quintas-feiras, onze horas e trinta minutos;
+e) Comissão de Relações Exteriores e Defesa Nacional: às quintas-feiras, dez horas;
+f) Comissão de Educação, Cultura e Esporte: às terças-feiras, onze horas;
+g) Comissão de Transparência, Governança, Fiscalização e Controle e Defesa do Consumidor: às terças-feiras, onze horas e trinta minutos;
+h) Comissão de Direitos Humanos e Legislação Participativa: às terças-feiras, doze horas;
+i) Comissão de Desenvolvimento Regional e Turismo: às quartas-feiras, quatorze horas;
+j) Comissão de Agricultura e Reforma Agrária: às quintas-feiras, doze horas;
+k) Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática: às quartas-feiras, dezoito horas;
+l) Comissão de Meio Ambiente: às quartas-feiras, às onze horas e trinta minutos.
+II - se extraordinárias, mediante convocação especial para dia, horário e fim indicados, observando-se, no que for aplicável, o disposto neste Regimento sobre a convocação de sessões extraordinárias do Senado;
+III - as comissões parlamentares de inquérito reunir-se-ão em horário diverso do estabelecido para o funcionamento das Comissões Permanentes.
+Parágrafo único. Em qualquer hipótese, a reunião de comissão permanente ou temporária não poderá coincidir com o tempo reservado à Ordem do Dia das sessões deliberativas ordinárias do Senado.
+  */
+  },
+  108:{
+    caput: 'As reuniões das comissões serão iniciadas com a presença de, no mínimo, um quinto de sua composição, salvo o disposto no § 3º do art. 93.'
+  /*
+  § 1º A pauta dos trabalhos das comissões, salvo em caso de urgência, será disponibilizada em meio eletrônico no portal do Senado Federal, com antecedência mínima de 2 (dois) dias úteis.
+§ 2º É facultada a utilização de sistema biométrico de identificação no registro de presença dos membros da comissão.
+§ 3º A suspensão de reunião de comissão somente será permitida quando sua continuação ocorrer em data e hora previamente estabelecidas.
+  */
+  },
+  109:{
+    caput: 'A comissão deliberará por maioria de votos, presente a maioria de seus membros, sendo as deliberações terminativas tomadas pelo processo nominal.'
+  /*
+  */
+  },
+  110:{
+    caput: 'As reuniões serão públicas, salvo os casos expressos neste Regimento ou quando o deliberar a comissão.'
+  /*
+  */
+  },
+  111:{
+    caput: 'Os trabalhos das comissões iniciar-se-ão, salvo deliberação em contrário, pela leitura e discussão da ata da reunião anterior que, se aprovada, será assinada pelo Presidente.'
+  /*
+  */
+  },
+  112:{
+    caput: 'É facultado a qualquer Senador assistir às reuniões das comissões, discutir o assunto em debate, pelo prazo por elas prefixado, e enviar-lhes, por escrito, informações ou esclarecimentos.'
+  /*
+  Parágrafo único. As informações ou esclarecimentos apresentados serão impressos com os pareceres, se o autor o requerer e a comissão o deferir.
+  */
+  },
+  113:{
+    caput: 'O estudo de qualquer matéria poderá ser feito em reunião conjunta de duas ou mais comissões, por iniciativa de qualquer delas, aceita pelas demais, sob a direção do Presidente mais idoso, ou ainda, nos termos do art. 49, II.'
+  /*
+  Parágrafo único. Nas reuniões conjuntas observar-se-ão as seguintes normas:
+I - cada comissão deverá estar presente pela maioria absoluta de seus membros;
+II - o estudo da matéria será em conjunto, mas a votação far-se-á separadamente, na ordem constante do despacho da Mesa;
+III - cada comissão poderá ter o seu relator se não preferir relator único;
+IV - o parecer das comissões poderá ser em conjunto, desde que consigne a manifestação de cada uma delas, ou em separado, se essa for a orientação preferida, mencionando, em qualquer caso, os votos vencidos, os em separado, os pelas conclusões e os com restrições.
+  */
+  },
+  114:{
+    caput: 'As comissões permanentes e temporárias serão secretariadas por servidores da Secretaria do Senado e terão assessoramento próprio, constituído de até três assessores, designados pelo respectivo Presidente, ouvida a Consultoria Legislativa ou a de Orçamentos, conforme o caso.'
+  /*
+  Parágrafo único. Ao secretário da comissão compete:
+I - redigir as atas;
+II - organizar a pauta do dia e do protocolo dos trabalhos com o seu andamento;
+III - manter atualizados os registros necessários ao controle de designação de relatores.
+  */
+  },
+  115:{
+    caput: 'Das reuniões das comissões lavrar-se-ão atas em folhas avulsas rubricadas pelo Presidente.'
+  /*
+  § 1º Quando, pela importância do assunto em estudo, convier o registro taquigráfico dos debates, o Presidente solicitará ao Primeiro Secretário as providências necessárias.
+§ 2º Das atas constarão:
+I - o dia, a hora e o local da reunião;
+II - os nomes dos membros presentes e os dos ausentes com causa justificada ou sem ela;
+III - a distribuição das matérias por assuntos e relatores;
+IV - as conclusões dos pareceres lidos;
+V - referências sucintas aos debates;
+VI - os pedidos de vista, adiamento, diligências e outras providências, salvo quando não se considere conveniente a divulgação da matéria.
+§ 3º As atas serão publicadas no Diário do Senado Federal, dentro dos dois dias úteis que se seguirem à reunião, podendo, em casos excepcionais, a juízo do Presidente da comissão, ser essa publicação adiada por igual prazo.
+  */
+  },
+  116:{
+    caput: 'Serão secretas as reuniões para deliberar sobre:'
+  /*
+  I - declaração de guerra ou celebração de paz (Const., art. 49, II);
+II - trânsito ou permanência temporária de forças estrangeiras no território nacional (Const., art. 49, II);
+III - escolha de chefe de missão diplomática de caráter permanente (Const., art. 52, IV);
+§ 1º Nas reuniões secretas, quando houver parecer a proferir, lido o relatório, que não será conclusivo, a comissão deliberará em escrutínio secreto, completando-se o parecer com o resultado da votação, não sendo consignadas restrições, declarações de voto ou votos em separado.
+§ 2º Nas reuniões secretas, servirá como secretário um dos membros da comissão, designado pelo Presidente.
+§ 3º A ata deverá ser aprovada ao fim da reunião, assinada por todos os membros presentes, encerrada em sobrecarta lacrada, datada e rubricada pelo Presidente e pelo Secretário e recolhida ao Arquivo do Senado.
+  */
+  },
+  117:{
+    caput: 'Nas reuniões secretas, além dos membros da comissão, só será admitida a presença de Senadores e das pessoas a serem ouvidas sobre a matéria em debate.'
+  /*
+  Parágrafo único. Os Deputados Federais poderão assistir às reuniões secretas que não tratarem de matéria da competência privativa do Senado Federal.
+  */
+  },
+  118:{
+    caput: 'O exame das comissões sobre as proposições, excetuadas as emendas e os casos em que este Regimento determine em contrário, obedecerá aos seguintes prazos:'
+  /*
+  I - vinte dias úteis para a Comissão de Constituição, Justiça e Cidadania;
+II - quinze dias úteis para as demais comissões.
+§ 1º Sobre as emendas, o prazo é de quinze dias úteis, correndo em conjunto se tiver que ser ouvida mais de uma comissão.
+§ 2º Se a comissão não puder proferir o parecer no prazo, tê-lo-á prorrogado, por igual período, desde que o seu Presidente envie à Mesa, antes de seu término, comunicação escrita, que será lida no Período do Expediente e publicada no Diário do Senado Federal. Posterior prorrogação só poderá ser concedida por prazo determinado e mediante deliberação do Senado.
+§ 3º O prazo da comissão ficará suspenso pelo encerramento da sessão legislativa, continuando a correr na sessão imediata, salvo quanto aos projetos a que se refere o art. 375, e renovar-se-á pelo início de nova legislatura ou por designação de novo relator.
+§ 4º Será suspenso o prazo da comissão durante o período necessário ao cumprimento das disposições previstas no art. 90, II, III, V e XIII.
+§ 5º O prazo da comissão não se suspenderá nos projetos sujeitos a prazos de tramitação.
+  */
+  },
+  119:{
+    caput: 'Quando a matéria for despachada a mais de uma comissão e a primeira esgotar o prazo sem sobre ela se manifestar, poderá ser dispensado o seu parecer, por deliberação do Plenário, a requerimento de qualquer Senador.'
+  /*
+  Parágrafo único. Se uma das comissões considerar indispensável, antes de proferir o seu parecer, o exame da que houver excedido o prazo, proposta neste sentido será submetida à deliberação do Plenário.
+  */
+  },
+  120:{
+    caput: 'O relator tem, para apresentar o relatório, a metade do prazo atribuído à comissão.'
+  /*
+  */
+  },
+  121:{
+    caput: 'O Presidente da comissão, ex officio ou a requerimento de Senador, poderá mandar incluir, na pauta dos trabalhos, matéria que, distribuída, não tenha sido relatada no prazo regimental, devendo dar conhecimento da decisão ao relator.'
+  /*
+  */
+  },
+  122:{
+    caput: 'Perante as comissões, poderão apresentar emendas:'
+  /*
+  I - qualquer de seus membros, em todos os casos;
+II - qualquer Senador:
+a) aos projetos de código;
+b) aos projetos de iniciativa do Presidente da República com tramitação urgente (Const., art. 64, § 1º);
+c) aos projetos referidos no art. 91.
+§ 1º No caso do inciso II, o prazo para a apresentação de emenda contar-se-á a partir da publicação da matéria no Diário do Senado Federal, sendo de vinte dias úteis para os projetos de Código e de cinco dias úteis para os demais projetos.
+§ 2º No avulso eletrônico da Ordem do Dia consignar-se-á a existência de projetos em fase de recebimento de emendas, com a indicação da comissão que deverá recebê-las, do prazo e do número de dias transcorridos.
+  */
+  },
+  123:{
+    caput: 'Considera-se emenda de comissão a proposta por qualquer de seus membros e por ela adotada.'
+  /*
+  */
+  },
+  124:{
+    caput: 'Terá o seguinte tratamento a emenda apresentada na forma do art. 122:'
+  /*
+  I - no caso do inciso I, será considerada inexistente quando não adotada pela comissão;
+II - no caso do inciso II, alínea a, será encaminhada à deliberação do Plenário do Senado, com parecer favorável ou contrário;
+III - no caso do inciso II, alínea b, será final o pronunciamento, salvo recurso interposto por um décimo dos membros do Senado no sentido de ser a emenda submetida ao Plenário, sem discussão;
+IV - no caso do inciso II, alínea c, será final o pronunciamento da comissão, salvo recurso interposto para discussão e votação da proposição principal.
+  */
+  },
+  125:{
+    caput: 'Quando a proposição estiver sujeita, na forma deste Regimento, a parecer em Plenário, o relator, ao proferi-lo, poderá oferecer emenda ou subemenda.'
+  /*
+  */
+  },
+  126:{
+    caput: 'A designação de relator, independente da matéria e de reunião da comissão, obedecerá à proporção das representações partidárias ou dos blocos parlamentares nela existentes, será alternada entre os seus membros e far-se-á em dois dias úteis após o recebimento do projeto, salvo nos casos em que este Regimento fixe outro prazo.'
+  /*
+  § 1º O relator do projeto será o das emendas a este oferecidas em plenário, salvo ausência ou recusa.
+§ 2º Quando se tratar de emenda oferecida pelo relator, em plenário, o Presidente da comissão designará outro Senador para relatá-la, sendo essa circunstância consignada no parecer.
+  */
+  },
+  127:{
+    caput: 'Não poderá funcionar como relator o autor da proposição.'
+  /*
+  */
+  },
+  128:{
+    caput: 'Vencido o relator, o Presidente da comissão designará um dos membros, em maioria, para suceder-lhe, exceto se o fato ocorrer apenas em relação a parte da proposição ou emenda, quando permanecerá o mesmo relator, consignando-se no parecer, pormenorizadamente, o objeto do dissenso na deliberação da comissão.'
+  /*
+  */
+  },
+  129:{
+    caput: 'O Presidente poderá, excepcionalmente, funcionar como relator.'
+  /*
+  */
+  },
+  130:{
+    caput: 'As matérias que, em cada reunião, devam ser objeto de estudo, constarão de pauta previamente organizada, sendo relatadas na ordem em que nela figurarem, salvo preferência concedida para qualquer delas.'
+  /*
+  */
+  },
+  131:{
+    caput: 'O relatório deverá ser oferecido por escrito.'
+  /*
+  */
+  },
+  132:{
+    caput: 'Lido o relatório, desde que a maioria se manifeste de acordo com o relator, passará ele a constituir parecer.'
+  /*
+  § 1º O pedido de vista do processo somente poderá ser aceito por uma única vez e pelo prazo máximo e improrrogável de cinco dias, devendo ser formulado na oportunidade em que for conhecido o voto proferido pelo relator, obedecido o disposto no § 4º.
+§ 2º Estando a matéria em regime de urgência, a vista somente poderá ser concedida:
+I - por meia hora, no caso do art. 336, I;
+II - por vinte e quatro horas, nos casos do art. 336, II e III.
+§ 3º Quando se tratar de proposição com prazo determinado, a vista, desde que não ultrapasse os últimos dez dias de sua tramitação, poderá ser concedida por vinte e quatro horas.
+§ 4º Os prazos a que se referem os §§ 1º a 3º correrão em conjunto se a vista for requerida por mais de um Senador.
+§ 5º Verificando-se a hipótese prevista no art. 128, o parecer vencedor deverá ser apresentado na reunião ordinária imediata, salvo deliberação em contrário.
+§ 6º Os membros da comissão que não concordarem com o relatório poderão:
+I - dar voto em separado;
+II - assiná-lo, uma vez constituído parecer, com restrições, pelas conclusões, ou declarando-se vencidos.
+§ 7º Contam-se como favoráveis os votos pelas conclusões ou com restrições.
+§ 8º (Revogado).
+§ 9º Em caso de empate na votação, o Presidente a desempatará.
+  */
+  },
+  133:{
+    caput: 'Todo parecer deve ser conclusivo em relação à matéria a que se referir, podendo a conclusão ser:'
+  /*
+  I - pela aprovação, total ou parcial;
+II - pela rejeição;
+III - pelo arquivamento;
+IV - pelo destaque, para proposição em separado, de parte da proposição principal, quando originária do Senado, ou de emenda;
+V - pela apresentação de:
+a) projeto;
+b) requerimento;
+c) emenda ou subemenda;
+d) orientação a seguir em relação à matéria.
+e) indicação, nos termos do art. 227-A, inciso II; (Incluído pela Resolução n.º 14, de 2019)
+§ 1º Considera-se pela rejeição o parecer pelo arquivamento quando se referir a proposição legislativa.
+§ 2º Nas hipóteses do inciso V, alíneas a, b e c, o parecer é considerado justificação da proposição apresentada.
+§ 2º Nas hipóteses do inciso V, alíneas "a", "b", "c" e "e", o parecer é considerado justificação da proposição apresentada. (Redação dada pela Resolução n.º 14, de 2019)
+§ 3º Sendo favorável o parecer apresentado sobre indicação, ofício, memorial ou outro documento contendo sugestão ou solicitação que dependa de proposição legislativa, esta deverá ser formalizada em conclusão.
+§ 4º Quando se tratar de parecer sobre matéria que deva ser apreciada em sessão secreta (art. 197), proceder-se-á de acordo com o disposto no art. 116, § 1º.
+§ 5º Quando o parecer se referir a emendas ou subemendas, deverá oferecer conclusão relativamente a cada uma.
+§ 6º A comissão, ao se manifestar sobre emendas, poderá reunir a matéria da proposição principal e das emendas com parecer favorável num único texto, com os acréscimos e alterações que visem ao seu aperfeiçoamento.
+§ 7º As emendas com parecer contrário das comissões serão submetidas ao Plenário, desde que a decisão do órgão técnico não alcance unanimidade de votos, devendo esta circunstância constar expressamente do parecer.
+§ 8º Toda vez que a comissão concluir o seu parecer com sugestão ou proposta que envolva matéria de requerimento ou emenda, formalizará a proposição correspondente.
+  */
+  },
+  134:{
+    caput: 'O parecer conterá ementa indicativa da matéria a que se referir.'
+  /*
+  */
+  },
+  135:{
+    caput: 'As comissões poderão, em seus pareceres, propor seja o assunto apreciado pelo Senado em sessão secreta, caso em que o respectivo processo será entregue ao Presidente da Mesa com o devido sigilo.'
+  /*
+  */
+  },
+  136:{
+    caput: 'Uma vez assinados pelo Presidente e pelo relator e instruídos com a lista de presença dos membros da comissão, os pareceres serão enviados à Mesa, juntamente com as emendas relatadas, declarações de votos e votos em separado.'
+  /*
+  */
+  },
+  137:{
+    caput: 'Os pareceres serão lidos em plenário, publicados no Diário do Senado Federal e em avulso eletrônico, após manifestação das comissões a que tenha sido despachada a matéria.'
+  /*
+  Parágrafo único. As comissões poderão promover, para estudos, a publicação de seus pareceres ao pé da ata da reunião ou em avulsos eletrônicos especiais.
+  */
+  },
+  138:{
+    caput: 'Se o parecer concluir por pedido de providências:'
+  /*
+  I - será despachado pelo Presidente da comissão quando solicitar audiência de outra comissão, reunião conjunta com outra comissão ou diligência interna de qualquer natureza;
+II - será encaminhado à Mesa para despacho da Presidência ou deliberação do Plenário, nos demais casos.
+§ 1º No caso de convocação de Ministro de Estado, será feita comunicação ao Presidente do Senado, que dela dará conhecimento ao Plenário.
+§ 2º Se a providência pedida não depender de deliberação do Plenário, será tomada independentemente da publicação do parecer.
+  */
+  },
+  139:{
+    caput: 'No caso do art. 133, IV, a proposta será submetida ao Plenário antes do prosseguimento do estudo da matéria.'
+  /*
+  */
+  },
+  140:{
+    caput: 'Os pareceres poderão ser proferidos oralmente, em plenário, por relator designado pelo Presidente da Mesa:'
+  /*
+  I - nas matérias em regime de urgência;
+II - nas matérias incluídas em Ordem do Dia, nos termos do art. 172;
+III - nas demais matérias em que este Regimento expressamente o permita.
+§ 1º Se, ao ser chamado a emitir parecer, nos casos do art. 172, I e II, alíneas b, c e d, o relator requerer diligência, sendo esta deferida, o seu pronunciamento dar-se-á, em plenário, após o cumprimento do requerido.
+§ 2º Para emitir parecer oral em plenário, o relator terá o prazo de trinta minutos.
+  */
+  },
+  141:{
+    caput: 'Se o parecer oral concluir pela apresentação de requerimento, projeto ou emenda, o texto respectivo deverá ser remetido à Mesa, por escrito, assinado pelo relator.'
+  /*
+  */
+  },
+  142:{
+    caput: 'Quando as comissões se ocuparem de assuntos de interesse particular, procederem a inquérito, tomarem depoimentos e informações, ou praticarem outras diligências semelhantes, poderão solicitar, das autoridades legislativas, judiciárias ou administrativas, das entidades autárquicas, sociedades de economia mista e empresas concessionárias de serviços públicos, quaisquer documentos ou informações e permitir às pessoas diretamente interessadas a defesa dos seus direitos, por escrito ou oralmente.'
+  /*
+  */
+  },
+  143:{
+    caput: 'Quando a comissão julgar que a petição, memorial, representação ou outro documento não deva ter andamento, mandá-lo-á arquivar, por proposta de qualquer de seus membros, comunicando o fato à Mesa.'
+  /*
+  § 1º A comunicação será lida no período do Expediente, publicada no Diário do Senado Federal e encaminhada ao arquivo com o documento que lhe deu origem.
+§ 2º O exame do documento poderá ser reaberto se o Plenário o deliberar, a requerimento de qualquer Senador.
+§ 3º A comissão não poderá encaminhar à Câmara dos Deputados ou a outro órgão do Poder Público qualquer documento que lhe tenha sido enviado.
+  */
+  },
+  144:{
+    caput: 'Quanto ao documento de natureza sigilosa, observar-se-ão, no trabalho das comissões, as seguintes normas:'
+  /*
+  I - não será lícito transcrevê-lo, no todo ou em parte, nos pareceres e expediente de curso ostensivo;
+II - se houver sido encaminhado ao Senado em virtude de requerimento formulado perante a comissão, o seu Presidente dele dará conhecimento ao requerente, em particular;
+III - se a matéria interessar à comissão, ser-lhe-á dada a conhecer em reunião secreta;
+IV - se destinado a instruir o estudo de matéria em curso no Senado, será encerrado em sobrecarta, rubricada pelo Presidente da comissão, que acompanhará o processo em toda a sua tramitação;
+V - quando o parecer contiver matéria de natureza sigilosa, será objeto das cautelas descritas no inciso IV.
+Parágrafo único. A inobservância do caráter secreto, confidencial ou reservado, de documentos de interesse de qualquer comissão sujeitará o infrator à pena de responsabilidade, apurada na forma da lei.
+  */
+  },
+  145:{
+    caput: 'A criação de comissão parlamentar de inquérito será feita mediante requerimento de um terço dos membros do Senado Federal.'
+  /*
+  § 1º O requerimento de criação da comissão parlamentar de inquérito determinará o fato a ser apurado, o número de membros, o prazo de duração da comissão e o limite das despesas a serem realizadas.
+§ 2º Recebido o requerimento, o Presidente ordenará que seja numerado e publicado.
+§ 3º O Senador só poderá integrar duas comissões parlamentares de inquérito, uma como titular, outra como suplente.
+§ 4º A comissão terá suplentes, em número igual à metade do número dos titulares mais um, escolhidos no ato da designação destes, observadas as normas constantes do art. 78.
+  */
+  },
+  146:{
+    caput: 'Não se admitirá comissão parlamentar de inquérito sobre matérias pertinentes:'
+  /*
+  I - à Câmara dos Deputados;
+II - às atribuições do Poder Judiciário;
+III - aos Estados.
+  */
+  },
+  147:{
+    caput: 'Na hipótese de ausência do relator a qualquer ato do inquérito, poderá o Presidente da comissão designar-lhe substituto para a ocasião, mantida a escolha na mesma representação partidária ou bloco parlamentar.'
+  /*
+  */
+  },
+  148:{
+    caput: 'No exercício das suas atribuições, a comissão parlamentar de inquérito terá poderes de investigação próprios das autoridades judiciais, facultada a realização de diligências que julgar necessárias, podendo convocar Ministros de Estado, tomar o depoimento de qualquer autoridade, inquirir testemunhas, sob compromisso, ouvir indiciados, requisitar de órgão público informações ou documentos de qualquer natureza, bem como requerer ao Tribunal de Contas da União a realização de inspeções e auditorias que entender necessárias.'
+  /*
+  § 1º No dia previamente designado, se não houver número para deliberar, a comissão parlamentar de inquérito poderá tomar depoimento das testemunhas ou autoridades convocadas, desde que estejam presentes o Presidente e o relator.
+§ 2º Os indiciados e testemunhas serão intimados de acordo com as prescrições estabelecidas na legislação processual penal, aplicando-se, no que couber, a mesma legislação, na inquirição de testemunhas e autoridades.
+  */
+  },
+  149:{
+    caput: 'O Presidente da comissão parlamentar de inquérito, por deliberação desta, poderá incumbir um dos seus membros ou funcionários da Secretaria do Senado da realização de qualquer sindicância ou diligência necessária aos seus trabalhos.'
+  /*
+  */
+  },
+  150:{
+    caput: 'Ao término de seus trabalhos, a comissão parlamentar de inquérito enviará à Mesa, para conhecimento do Plenário, seu relatório e conclusões.'
+  /*
+  § 1º A comissão poderá concluir seu relatório por projeto de resolução se o Senado for competente para deliberar a respeito.
+§ 2º Sendo diversos os fatos objeto de inquérito, a comissão dirá, em separado, sobre cada um, podendo fazê-lo antes mesmo de finda a investigação dos demais.
+  */
+  },
+  151:{
+    caput: 'A comissão parlamentar de inquérito encaminhará suas conclusões, se for o caso, ao Ministério Público, para que promova a responsabilidade civil ou criminal dos infratores.'
+  /*
+  */
+  },
+  152:{
+    caput: 'O prazo da comissão parlamentar de inquérito poderá ser prorrogado, automaticamente, a requerimento de um terço dos membros do Senado, comunicado por escrito à Mesa, lido em plenário e publicado no Diário do Senado Federal, observado o disposto no art. 76, § 4º.'
+  /*
+  */
+  },
+  153:{
+    caput: 'Nos atos processuais, aplicar-se-ão, subsidiariamente, as disposições do Código de Processo Penal.'
+  /*
+  */
+  },
+  154:{
     caput: ''
   /*
   */
   },
-  106:{},
-  107:{},
-  108:{},
-  109:{},
-  110:{},
-  111:{},
-  112:{},
-  113:{},
-  114:{},
-  115:{},
-  116:{},
-  117:{},
-  118:{},
-  119:{},
-  120:{},
-  121:{},
-  122:{},
-  123:{},
-  124:{},
-  125:{},
-  126:{},
-  127:{},
-  128:{},
-  129:{},
-  130:{},
-  131:{},
-  132:{},
-  133:{},
-  134:{},
-  135:{},
-  136:{},
-  137:{},
-  138:{},
-  139:{},
-  140:{},
-  141:{},
-  142:{},
-  143:{},
-  144:{},
-  145:{},
-  146:{},
-  147:{},
-  148:{},
-  149:{},
-  150:{},
-  151:{},
-  152:{},
-  153:{},
-  154:{},
-  155:{},
-  156:{},
-  157:{},
-  158:{},
-  159:{},
-  160:{},
-  161:{},
-  162:{},
-  163:{},
-  164:{},
-  165:{},
-  166:{},
-  167:{},
-  168:{},
-  169:{},
-  170:{},
-  171:{},
-  172:{},
-  173:{},
-  174:{},
-  175:{},
-  176:{},
-  177:{},
-  178:{},
-  179:{},
-  180:{},
-  181:{},
-  182:{},
-  183:{},
-  184:{},
-  185:{},
-  186:{},
-  187:{},
-  188:{},
-  189:{},
-  190:{},
-  191:{},
-  192:{},
-  193:{},
-  194:{},
-  195:{},
-  196:{},
-  197:{},
-  198:{},
-  199:{},
-  200:{},
-  201:{},
-  202:{},
-  203:{},
-  204:{},
-  205:{},
-  206:{},
-  207:{},
-  208:{},
-  209:{},
-  210:{},
-  211:{},
-  212:{},
-  213:{},
-  214:{},
-  215:{},
-  216:{},
-  217:{},
-  218:{},
-  219:{},
-  220:{},
-  221:{},
-  222:{},
-  223:{},
-  224:{},
-  225:{},
-  226:{},
-  227:{},
-  228:{},
-  229:{},
-  230:{},
-  231:{},
-  232:{},
-  233:{},
-  234:{},
-  235:{},
-  236:{},
-  237:{},
-  238:{},
-  239:{},
-  240:{},
-  241:{},
-  242:{},
-  243:{},
-  244:{},
-  245:{},
-  246:{},
-  247:{},
-  248:{},
-  249:{},
-  250:{},
-  251:{},
-  252:{},
-  253:{},
-  254:{},
-  255:{},
-  256:{},
-  257:{},
-  258:{},
-  259:{},
-  260:{},
-  261:{},
-  262:{},
-  263:{},
-  264:{},
-  265:{},
-  266:{},
-  267:{},
-  268:{},
-  269:{},
-  270:{},
-  271:{},
-  272:{},
-  273:{},
-  274:{},
-  275:{},
-  276:{},
-  277:{},
-  278:{},
-  279:{},
-  280:{},
-  281:{},
-  282:{},
-  283:{},
-  284:{},
-  285:{},
-  286:{},
-  287:{},
-  288:{},
-  289:{},
-  290:{},
-  291:{},
-  292:{},
-  293:{},
-  294:{},
-  295:{},
-  296:{},
-  297:{},
-  298:{},
-  299:{},
-  300:{},
-  301:{},
-  302:{},
-  303:{},
-  304:{},
-  305:{},
-  306:{},
-  307:{},
-  308:{},
-  309:{},
-  310:{},
-  311:{},
-  312:{},
-  313:{},
-  314:{},
-  315:{},
-  316:{},
-  317:{},
-  318:{},
-  319:{},
-  320:{},
-  321:{},
-  322:{},
-  323:{},
-  324:{},
-  325:{},
-  326:{},
-  327:{},
-  328:{},
-  329:{},
-  330:{},
-  331:{},
-  332:{},
-  333:{},
-  334:{},
-  335:{},
-  336:{},
-  337:{},
-  338:{},
-  339:{},
-  340:{},
-  341:{},
-  342:{},
-  343:{},
-  344:{},
-  345:{},
-  346:{},
-  347:{},
-  348:{},
-  349:{},
-  350:{},
-  351:{},
-  352:{},
-  353:{},
-  354:{},
-  355:{},
-  356:{},
-  357:{},
-  358:{},
-  359:{},
-  360:{},
-  361:{},
-  362:{},
-  363:{},
-  364:{},
-  365:{},
-  366:{},
-  367:{},
-  368:{},
-  369:{},
-  370:{},
-  371:{},
-  372:{},
-  373:{},
-  374:{},
-  375:{},
-  376:{},
-  377:{},
-  378:{},
-  379:{},
-  380:{},
-  381:{},
-  382:{},
-  383:{},
-  384:{},
-  385:{},
-  386:{},
-  387:{},
-  388:{},
-  389:{},
-  390:{},
-  391:{},
-  392:{},
-  393:{},
-  394:{},
-  395:{},
-  396:{},
-  397:{},
-  398:{},
-  399:{},
-  400:{},
-  401:{},
-  402:{},
-  403:{},
-  404:{},
-  405:{},
-  406:{},
-  407:{},
-  408:{},
-  409:{},
-  410:{},
-  411:{},
-  412:{},
-  413:{}
+  155:{
+    caput: ''
+  /*
+  */
+  },
+  156:{
+    caput: ''
+  /*
+  */
+  },
+  157:{
+    caput: ''
+  /*
+  */
+  },
+  158:{
+    caput: ''
+  /*
+  */
+  },
+  159:{
+    caput: ''
+  /*
+  */
+  },
+  160:{
+    caput: ''
+  /*
+  */
+  },
+  161:{
+    caput: ''
+  /*
+  */
+  },
+  162:{
+    caput: ''
+  /*
+  */
+  },
+  163:{
+    caput: ''
+  /*
+  */
+  },
+  164:{
+    caput: ''
+  /*
+  */
+  },
+  165:{
+    caput: ''
+  /*
+  */
+  },
+  166:{
+    caput: ''
+  /*
+  */
+  },
+  167:{
+    caput: ''
+  /*
+  */
+  },
+  168:{
+    caput: ''
+  /*
+  */
+  },
+  169:{
+    caput: ''
+  /*
+  */
+  },
+  170:{
+    caput: ''
+  /*
+  */
+  },
+  171:{
+    caput: ''
+  /*
+  */
+  },
+  172:{
+    caput: ''
+  /*
+  */
+  },
+  173:{
+    caput: ''
+  /*
+  */
+  },
+  174:{
+    caput: ''
+  /*
+  */
+  },
+  175:{
+    caput: ''
+  /*
+  */
+  },
+  176:{
+    caput: ''
+  /*
+  */
+  },
+  177:{
+    caput: ''
+  /*
+  */
+  },
+  178:{
+    caput: ''
+  /*
+  */
+  },
+  179:{
+    caput: ''
+  /*
+  */
+  },
+  180:{
+    caput: ''
+  /*
+  */
+  },
+  181:{
+    caput: ''
+  /*
+  */
+  },
+  182:{
+    caput: ''
+  /*
+  */
+  },
+  183:{
+    caput: ''
+  /*
+  */
+  },
+  184:{
+    caput: ''
+  /*
+  */
+  },
+  185:{
+    caput: ''
+  /*
+  */
+  },
+  186:{
+    caput: ''
+  /*
+  */
+  },
+  187:{
+    caput: ''
+  /*
+  */
+  },
+  188:{
+    caput: ''
+  /*
+  */
+  },
+  189:{
+    caput: ''
+  /*
+  */
+  },
+  190:{
+    caput: ''
+  /*
+  */
+  },
+  191:{
+    caput: ''
+  /*
+  */
+  },
+  192:{
+    caput: ''
+  /*
+  */
+  },
+  193:{
+    caput: ''
+  /*
+  */
+  },
+  194:{
+    caput: ''
+  /*
+  */
+  },
+  195:{
+    caput: ''
+  /*
+  */
+  },
+  196:{
+    caput: ''
+  /*
+  */
+  },
+  197:{
+    caput: ''
+  /*
+  */
+  },
+  198:{
+    caput: ''
+  /*
+  */
+  },
+  199:{
+    caput: ''
+  /*
+  */
+  },
+  200:{
+    caput: ''
+  /*
+  */
+  },
+  201:{
+    caput: ''
+  /*
+  */
+  },
+  202:{
+    caput: ''
+  /*
+  */
+  },
+  203:{
+    caput: ''
+  /*
+  */
+  },
+  204:{
+    caput: ''
+  /*
+  */
+  },
+  205:{
+    caput: ''
+  /*
+  */
+  },
+  206:{
+    caput: ''
+  /*
+  */
+  },
+  207:{
+    caput: ''
+  /*
+  */
+  },
+  208:{
+    caput: ''
+  /*
+  */
+  },
+  209:{
+    caput: ''
+  /*
+  */
+  },
+  210:{
+    caput: ''
+  /*
+  */
+  },
+  211:{
+    caput: ''
+  /*
+  */
+  },
+  212:{
+    caput: ''
+  /*
+  */
+  },
+  213:{
+    caput: ''
+  /*
+  */
+  },
+  214:{
+    caput: ''
+  /*
+  */
+  },
+  215:{
+    caput: ''
+  /*
+  */
+  },
+  216:{
+    caput: ''
+  /*
+  */
+  },
+  217:{
+    caput: ''
+  /*
+  */
+  },
+  218:{
+    caput: ''
+  /*
+  */
+  },
+  219:{
+    caput: ''
+  /*
+  */
+  },
+  220:{
+    caput: ''
+  /*
+  */
+  },
+  221:{
+    caput: ''
+  /*
+  */
+  },
+  222:{
+    caput: ''
+  /*
+  */
+  },
+  223:{
+    caput: ''
+  /*
+  */
+  },
+  224:{
+    caput: ''
+  /*
+  */
+  },
+  225:{
+    caput: ''
+  /*
+  */
+  },
+  226:{
+    caput: ''
+  /*
+  */
+  },
+  227:{
+    caput: ''
+  /*
+  */
+  },
+  228:{
+    caput: ''
+  /*
+  */
+  },
+  229:{
+    caput: ''
+  /*
+  */
+  },
+  230:{
+    caput: ''
+  /*
+  */
+  },
+  231:{
+    caput: ''
+  /*
+  */
+  },
+  232:{
+    caput: ''
+  /*
+  */
+  },
+  233:{
+    caput: ''
+  /*
+  */
+  },
+  234:{
+    caput: ''
+  /*
+  */
+  },
+  235:{
+    caput: ''
+  /*
+  */
+  },
+  236:{
+    caput: ''
+  /*
+  */
+  },
+  237:{
+    caput: ''
+  /*
+  */
+  },
+  238:{
+    caput: ''
+  /*
+  */
+  },
+  239:{
+    caput: ''
+  /*
+  */
+  },
+  240:{
+    caput: ''
+  /*
+  */
+  },
+  241:{
+    caput: ''
+  /*
+  */
+  },
+  242:{
+    caput: ''
+  /*
+  */
+  },
+  243:{
+    caput: ''
+  /*
+  */
+  },
+  244:{
+    caput: ''
+  /*
+  */
+  },
+  245:{
+    caput: ''
+  /*
+  */
+  },
+  246:{
+    caput: ''
+  /*
+  */
+  },
+  247:{
+    caput: ''
+  /*
+  */
+  },
+  248:{
+    caput: ''
+  /*
+  */
+  },
+  249:{
+    caput: ''
+  /*
+  */
+  },
+  250:{
+    caput: ''
+  /*
+  */
+  },
+  251:{
+    caput: ''
+  /*
+  */
+  },
+  252:{
+    caput: ''
+  /*
+  */
+  },
+  253:{
+    caput: ''
+  /*
+  */
+  },
+  254:{
+    caput: ''
+  /*
+  */
+  },
+  255:{
+    caput: ''
+  /*
+  */
+  },
+  256:{
+    caput: ''
+  /*
+  */
+  },
+  257:{
+    caput: ''
+  /*
+  */
+  },
+  258:{
+    caput: ''
+  /*
+  */
+  },
+  259:{
+    caput: ''
+  /*
+  */
+  },
+  260:{
+    caput: ''
+  /*
+  */
+  },
+  261:{
+    caput: ''
+  /*
+  */
+  },
+  262:{
+    caput: ''
+  /*
+  */
+  },
+  263:{
+    caput: ''
+  /*
+  */
+  },
+  264:{
+    caput: ''
+  /*
+  */
+  },
+  265:{
+    caput: ''
+  /*
+  */
+  },
+  266:{
+    caput: ''
+  /*
+  */
+  },
+  267:{
+    caput: ''
+  /*
+  */
+  },
+  268:{
+    caput: ''
+  /*
+  */
+  },
+  269:{
+    caput: ''
+  /*
+  */
+  },
+  270:{
+    caput: ''
+  /*
+  */
+  },
+  271:{
+    caput: ''
+  /*
+  */
+  },
+  272:{
+    caput: ''
+  /*
+  */
+  },
+  273:{
+    caput: ''
+  /*
+  */
+  },
+  274:{
+    caput: ''
+  /*
+  */
+  },
+  275:{
+    caput: ''
+  /*
+  */
+  },
+  276:{
+    caput: ''
+  /*
+  */
+  },
+  277:{
+    caput: ''
+  /*
+  */
+  },
+  278:{
+    caput: ''
+  /*
+  */
+  },
+  279:{
+    caput: ''
+  /*
+  */
+  },
+  280:{
+    caput: ''
+  /*
+  */
+  },
+  281:{
+    caput: ''
+  /*
+  */
+  },
+  282:{
+    caput: ''
+  /*
+  */
+  },
+  283:{
+    caput: ''
+  /*
+  */
+  },
+  284:{
+    caput: ''
+  /*
+  */
+  },
+  285:{
+    caput: ''
+  /*
+  */
+  },
+  286:{
+    caput: ''
+  /*
+  */
+  },
+  287:{
+    caput: ''
+  /*
+  */
+  },
+  288:{
+    caput: ''
+  /*
+  */
+  },
+  289:{
+    caput: ''
+  /*
+  */
+  },
+  290:{
+    caput: ''
+  /*
+  */
+  },
+  291:{
+    caput: ''
+  /*
+  */
+  },
+  292:{
+    caput: ''
+  /*
+  */
+  },
+  293:{
+    caput: ''
+  /*
+  */
+  },
+  294:{
+    caput: ''
+  /*
+  */
+  },
+  295:{
+    caput: ''
+  /*
+  */
+  },
+  296:{
+    caput: ''
+  /*
+  */
+  },
+  297:{
+    caput: ''
+  /*
+  */
+  },
+  298:{
+    caput: ''
+  /*
+  */
+  },
+  299:{
+    caput: ''
+  /*
+  */
+  },
+  300:{
+    caput: ''
+  /*
+  */
+  },
+  301:{
+    caput: ''
+  /*
+  */
+  },
+  302:{
+    caput: ''
+  /*
+  */
+  },
+  303:{
+    caput: ''
+  /*
+  */
+  },
+  304:{
+    caput: ''
+  /*
+  */
+  },
+  305:{
+    caput: ''
+  /*
+  */
+  },
+  306:{
+    caput: ''
+  /*
+  */
+  },
+  307:{
+    caput: ''
+  /*
+  */
+  },
+  308:{
+    caput: ''
+  /*
+  */
+  },
+  309:{
+    caput: ''
+  /*
+  */
+  },
+  310:{
+    caput: ''
+  /*
+  */
+  },
+  311:{
+    caput: ''
+  /*
+  */
+  },
+  312:{
+    caput: ''
+  /*
+  */
+  },
+  313:{
+    caput: ''
+  /*
+  */
+  },
+  314:{
+    caput: ''
+  /*
+  */
+  },
+  315:{
+    caput: ''
+  /*
+  */
+  },
+  316:{
+    caput: ''
+  /*
+  */
+  },
+  317:{
+    caput: ''
+  /*
+  */
+  },
+  318:{
+    caput: ''
+  /*
+  */
+  },
+  319:{
+    caput: ''
+  /*
+  */
+  },
+  320:{
+    caput: ''
+  /*
+  */
+  },
+  321:{
+    caput: ''
+  /*
+  */
+  },
+  322:{
+    caput: ''
+  /*
+  */
+  },
+  323:{
+    caput: ''
+  /*
+  */
+  },
+  324:{
+    caput: ''
+  /*
+  */
+  },
+  325:{
+    caput: ''
+  /*
+  */
+  },
+  326:{
+    caput: ''
+  /*
+  */
+  },
+  327:{
+    caput: ''
+  /*
+  */
+  },
+  328:{
+    caput: ''
+  /*
+  */
+  },
+  329:{
+    caput: ''
+  /*
+  */
+  },
+  330:{
+    caput: ''
+  /*
+  */
+  },
+  331:{
+    caput: ''
+  /*
+  */
+  },
+  332:{
+    caput: ''
+  /*
+  */
+  },
+  333:{
+    caput: ''
+  /*
+  */
+  },
+  334:{
+    caput: ''
+  /*
+  */
+  },
+  335:{
+    caput: ''
+  /*
+  */
+  },
+  336:{
+    caput: ''
+  /*
+  */
+  },
+  337:{
+    caput: ''
+  /*
+  */
+  },
+  338:{
+    caput: ''
+  /*
+  */
+  },
+  339:{
+    caput: ''
+  /*
+  */
+  },
+  340:{
+    caput: ''
+  /*
+  */
+  },
+  341:{
+    caput: ''
+  /*
+  */
+  },
+  342:{
+    caput: ''
+  /*
+  */
+  },
+  343:{
+    caput: ''
+  /*
+  */
+  },
+  344:{
+    caput: ''
+  /*
+  */
+  },
+  345:{
+    caput: ''
+  /*
+  */
+  },
+  346:{
+    caput: ''
+  /*
+  */
+  },
+  347:{
+    caput: ''
+  /*
+  */
+  },
+  348:{
+    caput: ''
+  /*
+  */
+  },
+  349:{
+    caput: ''
+  /*
+  */
+  },
+  350:{
+    caput: ''
+  /*
+  */
+  },
+  351:{
+    caput: ''
+  /*
+  */
+  },
+  352:{
+    caput: ''
+  /*
+  */
+  },
+  353:{
+    caput: ''
+  /*
+  */
+  },
+  354:{
+    caput: ''
+  /*
+  */
+  },
+  355:{
+    caput: ''
+  /*
+  */
+  },
+  356:{
+    caput: ''
+  /*
+  */
+  },
+  357:{
+    caput: ''
+  /*
+  */
+  },
+  358:{
+    caput: ''
+  /*
+  */
+  },
+  359:{
+    caput: ''
+  /*
+  */
+  },
+  360:{
+    caput: ''
+  /*
+  */
+  },
+  361:{
+    caput: ''
+  /*
+  */
+  },
+  362:{
+    caput: ''
+  /*
+  */
+  },
+  363:{
+    caput: ''
+  /*
+  */
+  },
+  364:{
+    caput: ''
+  /*
+  */
+  },
+  365:{
+    caput: ''
+  /*
+  */
+  },
+  366:{
+    caput: ''
+  /*
+  */
+  },
+  367:{
+    caput: ''
+  /*
+  */
+  },
+  368:{
+    caput: ''
+  /*
+  */
+  },
+  369:{
+    caput: ''
+  /*
+  */
+  },
+  370:{
+    caput: ''
+  /*
+  */
+  },
+  371:{
+    caput: ''
+  /*
+  */
+  },
+  372:{
+    caput: ''
+  /*
+  */
+  },
+  373:{
+    caput: ''
+  /*
+  */
+  },
+  374:{
+    caput: ''
+  /*
+  */
+  },
+  375:{
+    caput: ''
+  /*
+  */
+  },
+  376:{
+    caput: ''
+  /*
+  */
+  },
+  377:{
+    caput: ''
+  /*
+  */
+  },
+  378:{
+    caput: ''
+  /*
+  */
+  },
+  379:{
+    caput: ''
+  /*
+  */
+  },
+  380:{
+    caput: ''
+  /*
+  */
+  },
+  381:{
+    caput: ''
+  /*
+  */
+  },
+  382:{
+    caput: ''
+  /*
+  */
+  },
+  383:{
+    caput: ''
+  /*
+  */
+  },
+  384:{
+    caput: ''
+  /*
+  */
+  },
+  385:{
+    caput: ''
+  /*
+  */
+  },
+  386:{
+    caput: ''
+  /*
+  */
+  },
+  387:{
+    caput: ''
+  /*
+  */
+  },
+  388:{
+    caput: ''
+  /*
+  */
+  },
+  389:{
+    caput: ''
+  /*
+  */
+  },
+  390:{
+    caput: ''
+  /*
+  */
+  },
+  391:{
+    caput: ''
+  /*
+  */
+  },
+  392:{
+    caput: ''
+  /*
+  */
+  },
+  393:{
+    caput: ''
+  /*
+  */
+  },
+  394:{
+    caput: ''
+  /*
+  */
+  },
+  395:{
+    caput: ''
+  /*
+  */
+  },
+  396:{
+    caput: ''
+  /*
+  */
+  },
+  397:{
+    caput: ''
+  /*
+  */
+  },
+  398:{
+    caput: ''
+  /*
+  */
+  },
+  399:{
+    caput: ''
+  /*
+  */
+  },
+  400:{
+    caput: ''
+  /*
+  */
+  },
+  401:{
+    caput: ''
+  /*
+  */
+  },
+  402:{
+    caput: ''
+  /*
+  */
+  },
+  403:{
+    caput: ''
+  /*
+  */
+  },
+  404:{
+    caput: ''
+  /*
+  */
+  },
+  405:{
+    caput: ''
+  /*
+  */
+  },
+  406:{
+    caput: ''
+  /*
+  */
+  },
+  407:{
+    caput: ''
+  /*
+  */
+  },
+  408:{
+    caput: ''
+  /*
+  */
+  },
+  409:{
+    caput: ''
+  /*
+  */
+  },
+  410:{
+    caput: ''
+  /*
+  */
+  },
+  411:{
+    caput: ''
+  /*
+  */
+  },
+  412:{
+    caput: ''
+  /*
+  */
+  },
+  413:{
+    caput: ''
+  /*
+  */
+  }
 }
 
 function getArtigos(){
