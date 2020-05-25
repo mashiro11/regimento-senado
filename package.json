@@ -2,7 +2,7 @@
   "name": "regimento-senado",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mashiro11.github.io/regimento_senado"
+  "homepage": "http://mashiro11.github.io/regimento_senado",
   "dependencies": {
     "@material-ui/core": "^4.5.0",
     "react": "^16.10.2",
