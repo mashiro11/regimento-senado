@@ -3,28 +3,35 @@ import {artLink} from './constituicao.js'
 const artigos = {
   1:{
     caput:'O Senado Federal tem sede no Palácio do Congresso Nacional, em Brasília.',
-    paragrafos:{
-      1:{
-        caput:'Em Caso de guerra, de comoção intestina, de calamidade pública ou de ocorrência que impossibilite o seu funcionamento na sede, o Senado poderá reunir-se, eventualmente, em qualquer outro local, por determinação da Mesa, a requerimento da maioria dos Senadores.'
+    enumeravel:{
+      tipo: 'paragrafo',
+      lista:{
+        1:{
+          caput:'Em Caso de guerra, de comoção intestina, de calamidade pública ou de ocorrência que impossibilite o seu funcionamento na sede, o Senado poderá reunir-se, eventualmente, em qualquer outro local, por determinação da Mesa, a requerimento da maioria dos Senadores.'
+        }
       }
     }
   },
   2:{
     caput:'O senado federal reunir-se-á:',
-    inciso:{
-      1:{
-        caput:'anualmente, de 2 de fevereiro a 17 de julho e de 1º de agosto a 22 de dezembro, durante as sessões legislativas ordinárias, observando o disposto no art.57 da Constituição;',
-        citacao: [{
-          texto: 'art.57 da Constituição',
-          link: artLink(57)
-        }]
-      },
-      2:{
-        caput:'quando convocado extaordinariamente o Congresso Nacional (Const, art 57 §§ 6º a 8º).',
-        citacao: [{
-          texto: '(Const, art 57 §§ 6º a 8º)',
-          link: artLink(57)
-        }]
+    enumeravel:{
+      tipo:'inciso',
+      lista:{
+        1:{
+          caput:'anualmente, de 2 de fevereiro a 17 de julho e de 1º de agosto a 22 de dezembro, durante as sessões legislativas ordinárias, observando o disposto no art.57 da Constituição;',
+          citacao: [{
+            texto: 'art.57 da Constituição',
+            link: artLink(57)
+          }]
+        }
+        ,
+        2:{
+          caput:'quando convocado extaordinariamente o Congresso Nacional (Const, art 57 §§ 6º a 8º).',
+          citacao: [{
+            texto: '(Const, art 57 §§ 6º a 8º)',
+            link: artLink(57)
+          }]
+        }
       }
     },
     paragrafos:{
@@ -35,28 +42,69 @@ const artigos = {
   },
   3:{
     caput: 'A primeira e a terceira sessões legislativas ordinárias de cada legislatura serão precedidas de reuniões preparatórias, que obedecerão às seguintes normas:',
-    /*
-    enumeravel: 'I - iniciar-se-ão com o quorum mínimo de um sexto da composição do Senado, em horário fixado pela Presidência, observando-se, nas deliberações, o disposto no art. 288;'
-    'II - a direção dos trabalhos caberá à Mesa anterior, dela excluídos, no início de legislatura, aqueles cujos mandatos com ela houverem terminado, ainda que reeleitos;'
-    'III - na falta dos membros da Mesa anterior, assumirá a Presidência o mais idoso dentre os presentes, o qual convidará, para os quatro lugares de Secretários, Senadores pertencentes às representações partidárias mais numerosas;'
-    'IV - a primeira reunião preparatória realizar-se-á:'
-    'a) no início de legislatura, a partir do dia 1º de fevereiro;'
-    'b) na terceira sessão legislativa ordinária, no dia 1º de fevereiro;'
-    'V - no início de legislatura, os Senadores eleitos prestarão o compromisso regimental na primeira reunião preparatória; em reunião seguinte, será realizada a eleição do Presidente e, na terceira, a dos demais membros da Mesa;'
-    'VI - na terceira sessão legislativa ordinária, far-se-á a eleição do Presidente da Mesa na primeira reunião preparatória e a dos demais membros, na reunião seguinte;'
-    'VII– nas reuniões preparatórias, não será lícito o uso da palavra, salvo para declaração pertinente à matéria que nelas deva ser tratada.'
-    */
+    enumeravel: {
+      tipo: 'inciso',
+      lista:{
+        1:{
+          caput:'iniciar-se-ão com o quorum mínimo de um sexto da composição do Senado, em horário fixado pela Presidência, observando-se, nas deliberações, o disposto no art. 288;'
+        },
+        2:{
+          caput:'a direção dos trabalhos caberá à Mesa anterior, dela excluídos, no início de legislatura, aqueles cujos mandatos com ela houverem terminado, ainda que reeleitos;'
+        },
+        3:{
+          caput:'na falta dos membros da Mesa anterior, assumirá a Presidência o mais idoso dentre os presentes, o qual convidará, para os quatro lugares de Secretários, Senadores pertencentes às representações partidárias mais numerosas;'
+        },
+        4:{
+          caput:'a primeira reunião preparatória realizar-se-á:',
+          enumeravel:{
+            tipo: 'letra',
+            lista: {
+              1:{
+                caput:'no início de legislatura, a partir do dia 1º de fevereiro;'
+              },
+              2:{
+                caput:'na terceira sessão legislativa ordinária, no dia 1º de fevereiro;'
+              }
+            }
+          }
+        },
+        5:{
+          caput:'no início de legislatura, os Senadores eleitos prestarão o compromisso regimental na primeira reunião preparatória; em reunião seguinte, será realizada a eleição do Presidente e, na terceira, a dos demais membros da Mesa;'
+        },
+        6:{
+          caput:'na terceira sessão legislativa ordinária, far-se-á a eleição do Presidente da Mesa na primeira reunião preparatória e a dos demais membros, na reunião seguinte;'
+        },
+        7:{
+          caput:'nas reuniões preparatórias, não será lícito o uso da palavra, salvo para declaração pertinente à matéria que nelas deva ser tratada.'
+        }
+      }
+    }
   },
   4:{
     caput: 'A posse, ato público por meio do qual o Senador se investe no mandato, realizar-se-á perante o Senado, durante reunião preparatória, sessão deliberativa ou não deliberativa, precedida da apresentação à Mesa do diploma expedido pela Justiça Eleitoral, o qual será publicado no Diário do Senado Federal.',
-    /*
-    § 1º A apresentação do diploma poderá ser feita pelo diplomado, pessoalmente, por ofício ao Primeiro-Secretário, por intermédio do seu Partido ou de qualquer Senador.
-    § 2º Presente o diplomado, o Presidente designará três Senadores para recebê-lo, introduzi-lo no plenário e conduzi-lo até a Mesa, onde, estando todos de pé, prestará o seguinte compromisso: “Prometo guardar a Constituição Federal e as leis do País, desempenhar fiel e lealmente o mandato de Senador que o povo me conferiu e sustentar a união, a integridade e a independência do Brasil”.
-    § 3º Quando forem diversos os Senadores a prestar o compromisso a que se refere o § 2º, somente um o pronunciará e os demais, ao serem chamados, dirão: “Assim o prometo”.
-    § 4º Durante o recesso, a posse realizar-se-á perante o Presidente, em solenidade pública em seu gabinete, observada a exigência da apresentação do diploma e da prestação do compromisso, devendo o fato ser noticiado no Diário do Senado Federal.
-    § 5º O Senador deverá tomar posse dentro de noventa dias, contados da instalação da sessão legislativa, ou, se eleito durante esta, contados da diplomação, podendo o prazo ser prorrogado, por motivo justificado, a requerimento do interessado, por mais trinta dias.
-    § 6º Findo o prazo de noventa dias, se o Senador não tomar posse nem requerer sua prorrogação, considerar-se-á como tendo renunciado ao mandato, convocando-se o primeiro Suplente.'
-    */
+    enumeravel:{
+      tipo: 'paragrafo',
+      lista:{
+        1:{
+          caput:'A apresentação do diploma poderá ser feita pelo diplomado, pessoalmente, por ofício ao Primeiro-Secretário, por intermédio do seu Partido ou de qualquer Senador.'
+        },
+        2:{
+          caput:'Presente o diplomado, o Presidente designará três Senadores para recebê-lo, introduzi-lo no plenário e conduzi-lo até a Mesa, onde, estando todos de pé, prestará o seguinte compromisso: “Prometo guardar a Constituição Federal e as leis do País, desempenhar fiel e lealmente o mandato de Senador que o povo me conferiu e sustentar a união, a integridade e a independência do Brasil”.'
+        },
+        3:{
+          caput:'Quando forem diversos os Senadores a prestar o compromisso a que se refere o § 2º, somente um o pronunciará e os demais, ao serem chamados, dirão: “Assim o prometo”.'
+        },
+        4:{
+          caput:'Durante o recesso, a posse realizar-se-á perante o Presidente, em solenidade pública em seu gabinete, observada a exigência da apresentação do diploma e da prestação do compromisso, devendo o fato ser noticiado no Diário do Senado Federal.'
+        },
+        5:{
+          caput:'O Senador deverá tomar posse dentro de noventa dias, contados da instalação da sessão legislativa, ou, se eleito durante esta, contados da diplomação, podendo o prazo ser prorrogado, por motivo justificado, a requerimento do interessado, por mais trinta dias.'
+        },
+        6:{
+          caput:'Findo o prazo de noventa dias, se o Senador não tomar posse nem requerer sua prorrogação, considerar-se-á como tendo renunciado ao mandato, convocando-se o primeiro Suplente.'
+        },
+      }
+    }
   },
   5:{
     caput: 'O primeiro Suplente, convocado para a substituição de Senador licenciado, terá o prazo de trinta dias improrrogáveis para prestar o compromisso, e, nos casos de vaga ou de afastamento nos termos do art. 39, II, de sessenta dias, que poderá ser prorrogado, por motivo justificado, a requerimento do interessado, por mais trinta dias.'

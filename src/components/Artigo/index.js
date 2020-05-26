@@ -2,6 +2,7 @@ import React, {useContext} from 'react'
 import Button from '@material-ui/core/Button'
 
 import Paragrafo from '../Paragrafo'
+import Enumeravel from '../Enumeravel'
 import romanize from '../../romanize'
 
 import { AppDispatch } from '../../App.js'
@@ -24,41 +25,19 @@ const Artigo = ({artigo, index}) => {
 
   return(
     <div>
-      <span>Art. {index}º </span>
+      <span><strong>Art. {index}º </strong></span>
       {artigo ?
         <>
         {artigo.citacao ?
-          formatCitacao(onClick, artigo.caput, artigo.citacao)
+          formatCitacao(null, artigo.caput, artigo.citacao)
           : <span>{artigo.caput}</span>
         }
-
-        {artigo.inciso?
-          <div>
-            {Object.keys(artigo.inciso).map((numero, index)=>
-              artigo.inciso[numero].citacao?
-              <div key={index}>
-                <div>{romanize(index + 1)} - {formatCitacao(onClick, artigo.inciso[numero].caput, artigo.inciso[numero].citacao, 0)}</div>
-              </div>
-              :
-              <div  key={index}>
-                <div>{romanize(index + 1)} - {artigo.inciso[numero].caput}</div>
-              </div>
-            )}
-          </div>
-          :null
-        }
-        <br/>
-
-        {artigo.paragrafos?
-          <div>
-          {Object.keys(artigo.paragrafos).length === 1?
-            <Paragrafo paragrafo={artigo.paragrafos[1]} unico/>
-
-          :Object.keys(artigo.paragrafos).map((paragrafo, i) =>
-            <Paragrafo paragrafo={artigo.paragrafos[paragrafo]} index={paragrafo}/>
-          )}
-          </div>
-        :null}
+        {artigo.enumeravel ?
+          <Enumeravel
+            lista={artigo.enumeravel.lista}
+            tipo={artigo.enumeravel.tipo}
+          />
+          : null}
       </>
     : null}
     </div>
