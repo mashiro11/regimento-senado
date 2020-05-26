@@ -107,11 +107,18 @@ const artigos = {
     }
   },
   5:{
-    caput: 'O primeiro Suplente, convocado para a substituição de Senador licenciado, terá o prazo de trinta dias improrrogáveis para prestar o compromisso, e, nos casos de vaga ou de afastamento nos termos do art. 39, II, de sessenta dias, que poderá ser prorrogado, por motivo justificado, a requerimento do interessado, por mais trinta dias.'
-/*
-§ 1º Se, dentro dos prazos estabelecidos neste artigo, o Suplente não tomar posse e nem requerer sua prorrogação, considerar-se-á como tendo renunciado ao mandato, convocando-se o segundo Suplente, que terá, em qualquer hipótese, trinta dias para prestar o compromisso.
-§ 2º O Suplente, por ocasião da primeira convocação, deverá prestar o compromisso na forma do art. 4º e, nas seguintes, o Presidente comunicará à Casa a sua volta ao exercício do mandato.
-*/
+    caput: 'O primeiro Suplente, convocado para a substituição de Senador licenciado, terá o prazo de trinta dias improrrogáveis para prestar o compromisso, e, nos casos de vaga ou de afastamento nos termos do art. 39, II, de sessenta dias, que poderá ser prorrogado, por motivo justificado, a requerimento do interessado, por mais trinta dias.',
+    enumeravel:{
+      tipo: 'paragrafo',
+      lista:{
+        1:{
+          caput:'Se, dentro dos prazos estabelecidos neste artigo, o Suplente não tomar posse e nem requerer sua prorrogação, considerar-se-á como tendo renunciado ao mandato, convocando-se o segundo Suplente, que terá, em qualquer hipótese, trinta dias para prestar o compromisso.'
+        },
+        2:{
+          caput:'O Suplente, por ocasião da primeira convocação, deverá prestar o compromisso na forma do art. 4º e, nas seguintes, o Presidente comunicará à Casa a sua volta ao exercício do mandato.'
+        }
+      }
+    }
   },
   6:{
     caput: 'Nos casos dos arts. 4º, § 5º, e 5º, § 1º, havendo requerimento e findo o prazo sem ter sido votado, considerar-se-á como concedida a prorrogação.'

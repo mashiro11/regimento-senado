@@ -20,23 +20,25 @@ const Enumeravel = ({lista, tipo}) => {
     const dispatch = React.useContext(AppDispatch)
     const onClick = (link) => () => dispatch({type: 'CHANGE_CITATION', citacaoLink: link})
 
-  const prefixo = tipo === 'paragrafo' ?
+  const prefixo = tipo === 'artigo'?
+                    (index) => `Art. ${parseInt(index)}º `
+                  :tipo === 'paragrafo' ?
                       Object.keys(lista).length === 1?
                         (index) => 'Parágrafo único. '
-                        :(index) =>  '§ ' + (index+1) + 'º '
+                        :(index) =>  `§ ${index+1} º `
                   :tipo === 'inciso' ?
-                    (index) => romanize(index+1) + ' - '
+                    (index) => `${romanize(parseInt(index))} - `
                   :tipo === 'letra' ?
-                    (index) => String.fromCharCode('a'.charCodeAt(0) + index) + ') '
+                    (index) => `${String.fromCharCode('a'.charCodeAt(0) + parseInt(index))}) `
                   :()=>{}
 
   return(
     <div>
       {lista && Object.keys(lista).map( (key, index) =>
-        <div>
+        <div key={index}>
           {lista[key].citacao ?
-            formatCitacao(onClick, lista[key].caput, lista[key].citacao, index)
-            : <span>{prefixo(index) + lista[key].caput}</span>
+            formatCitacao(onClick, lista[key].caput, lista[key].citacao, 0)
+            : <span>{prefixo(key) + lista[key].caput}</span>
           }
           {lista[key].enumeravel ?
             <Enumeravel
