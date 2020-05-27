@@ -30,6 +30,8 @@ const Enumeravel = ({lista, tipo}) => {
                     (index) => `${romanize(parseInt(index))} - `
                   :tipo === 'letra' ?
                     (index) => `${String.fromCharCode('a'.charCodeAt(0) + parseInt(index))}) `
+                  :tipo === 'numerico' ?
+                    (index) => `${index} - `
                   :()=>{}
 
   return(
@@ -41,10 +43,13 @@ const Enumeravel = ({lista, tipo}) => {
             : <span>{prefixo(key) + lista[key].caput}</span>
           }
           {lista[key].enumeravel ?
-            <Enumeravel
-              lista={lista[key].enumeravel.lista}
-              tipo={lista[key].enumeravel.tipo}
-            />
+            lista[key].enumeravel.map((enumeravel, index)=>
+              <Enumeravel
+                lista={enumeravel.lista}
+                tipo={enumeravel.tipo}
+                key={index}
+              />
+            )
             :null
           }
         </div>
