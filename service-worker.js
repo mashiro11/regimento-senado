@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/regimento-senado/precache-manifest.38fece83c12d825ec5a68b62dec2e802.js"
+  "/regimento-senado/precache-manifest.4cd5fe9bac7dc6996a04aa8ab008ebd1.js"
 );
 
 self.addEventListener('message', (event) => {
