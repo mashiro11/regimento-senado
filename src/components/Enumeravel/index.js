@@ -39,7 +39,8 @@ const Enumeravel = ({lista, tipo}) => {
       {lista && Object.keys(lista).map( (key, index) =>
         <div key={index}>
           {lista[key].citacao ?
-            formatCitacao(onClick, lista[key].caput, lista[key].citacao, 0)
+            <span>{prefixo(key) + lista[key].caput}</span>
+            /*formatCitacao(onClick, lista[key].caput, lista[key].citacao, 0)*/
             : <span>{prefixo(key) + lista[key].caput}</span>
           }
           {lista[key].enumeravel ?
