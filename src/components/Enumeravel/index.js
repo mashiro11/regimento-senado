@@ -21,15 +21,15 @@ const Enumeravel = ({lista, tipo}) => {
     const onClick = (link) => () => dispatch({type: 'CHANGE_CITATION', citacaoLink: link})
 
   const prefixo = tipo === 'artigo'?
-                    (index) => `Art. ${parseInt(index)}º `
-                  :tipo === 'paragrafo' ?
+                    (index) => `Art. ${parseInt(index)}${index < 10 ? 'º' : '.'} `
+                  :tipo === "paragrafo" ?
                       Object.keys(lista).length === 1?
                         (index) => 'Parágrafo único. '
-                        :(index) =>  `§ ${index+1} º `
+                        :(index) =>  `§ ${index}º `
                   :tipo === 'inciso' ?
                     (index) => `${romanize(parseInt(index))} - `
                   :tipo === 'letra' ?
-                    (index) => `${String.fromCharCode('a'.charCodeAt(0) + parseInt(index))}) `
+                    (index) => `${String.fromCharCode('a'.charCodeAt(0) + (parseInt(index)-1) )}) `
                   :tipo === 'numerico' ?
                     (index) => `${index} - `
                   :()=>{}
