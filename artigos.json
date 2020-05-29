@@ -1,6 +1,3 @@
-import {artLink} from './constituicao.js'
-
-const artigos =
 {
 	"1":{
 		"caput":'O Senado Federal tem sede no Palácio do Congresso Nacional, em Brasília.',
@@ -3919,7 +3916,7 @@ const artigos =
 	"223":{
 		"caput":'(Revogado).'
 	},
-	"224-X":{
+	"224":{
 		"caput":'Indicação corresponde a sugestão de Senador ou comissão para que o assunto, nela focalizado, seja objeto de providência ou estudo pelo órgão competente da Casa, com a finalidade do seu esclarecimento ou formulação de proposição legislativa.'
 	},
 	"224":{
@@ -3967,7 +3964,7 @@ const artigos =
 			}
 		}]
 	},
-	"226-X":{
+	"226":{
 		"caput":'Lida no Período do Expediente, a indicação será encaminhada à comissão competente.'
 	},
 	"226":{
@@ -3995,7 +3992,7 @@ const artigos =
 			}
 		}]
 	},
-	"227-X":{
+	"227":{
 		"caput":'A indicação não será discutida nem votada pelo Senado. A deliberação tomará por base a conclusão do parecer da comissão.',
 		"enumeravel": [{
 			"tipo":"paragrafo",
@@ -4067,7 +4064,7 @@ const artigos =
 			}
 		}]
 	},
-	"229-X":{
+	"229":{
 		"caput":'Se houver mais de um parecer, de conclusões discordantes, sobre a mesma matéria, a ser submetida ao Plenário, proceder-se-á de acordo com a norma estabelecida no art. 227, parágrafo único.'
 	},
 	"229":{
@@ -6902,16 +6899,3 @@ const artigos =
 		}]
 	},
 }
-function getArtigos(){
-  /*
-  if(arguments.length === 2) console.log('arguments:', arguments[0], arguments[1])
-  else console.log('arguments:', arguments[0])
-  */
-  return arguments.length === 2 ?
-      Object.keys(artigos)
-      .slice(arguments[0]-1, arguments[1])
-      .reduce( (obj, numArtigo) => {return {...obj, [numArtigo] : artigos[numArtigo]} }, {})
-      : {[arguments[0]]: artigos[arguments[0]]}
-}
-
-export { artigos, getArtigos }
