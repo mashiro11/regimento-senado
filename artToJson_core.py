@@ -135,7 +135,7 @@ def getCitacoes(text):
 			i += 1
 			frag += ' ' + frags[i]
 			i += 1
-		elif 'parágrafo' in frags[i].lower():
+		elif 'arts.' in frags[i]:
 			frag += frags[i]
 			i += 1
 			frag += ' ' + frags[i]
@@ -150,6 +150,13 @@ def getCitacoes(text):
 			add = False
 			lista.append(frag)
 			frag = ''
+		'''
+		elif 'parágrafo' in frags[i].lower():
+			frag += frags[i]
+			i += 1
+			frag += ' ' + frags[i]
+			i += 1
+		'''
 
 	return lista
 
@@ -172,6 +179,7 @@ def writeArt(art, output, depth = 0, index=0):
 	if len(citacoes) > 0:
 		output.write(',\n')
 		output.write('{0}	\"citacao\":['.format(tabs))
+		
 		for index, c in enumerate(citacoes):
 			output.write('{{\"texto\":\"{0}\",'.format(c))
 			if 'Const' in c:
