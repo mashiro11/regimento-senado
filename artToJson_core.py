@@ -1,5 +1,9 @@
 import pprint
 
+linkConstituicao = "https://www.senado.leg.br/atividade/const/con1988/con1988_03.07.2019/art_${num}_.asp#conteudoConst"
+def linkConstituicao(art):
+	return "https://www.senado.leg.br/atividade/const/con1988/con1988_03.07.2019/art_{0}_.asp#conteudoConst".format(art)
+
 def linesToArts(lines):
 	arts = []
 	i = 0
@@ -170,7 +174,12 @@ def writeArt(art, output, depth = 0, index=0):
 		output.write('{0}	\"citacao\":['.format(tabs))
 		for index, c in enumerate(citacoes):
 			output.write('{{\"texto\":\"{0}\",'.format(c))
-			output.write('\"link\":\"\"}')
+			if 'Const' in c:
+				artString = c.split(' ')[2]
+				artNum = int(''.join(filter(str.isdigit, artString)))
+				output.write('\"link\":\"{0}\"}}'.format(linkConstituicao(artNum)))
+			else:
+				output.write('\"link\":\"\"}')
 			if index != len(citacoes)-1:
 				output.write(',')
 		output.write(']')
