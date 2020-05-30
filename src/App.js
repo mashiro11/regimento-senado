@@ -9,7 +9,6 @@ export const AppDispatch = React.createContext(null)
 
 function App() {
   const [state, dispatch] = React.useReducer(reducer, {citacaoLink: ''})
-
   return (
     <div className="App">
       <AppDispatch.Provider value={dispatch}>

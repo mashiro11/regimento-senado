@@ -5,9 +5,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import MetaTags from 'react-meta-tags'
 
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <div>
+    <MetaTags>
+      <title>RISF Interativo</title>
+      <meta name="description" content="Regimento Interno Interativo do Senado Federal" />
+      <meta property="og:title" content="RISF Interativo" />
+      {/*}<meta property="og:image" content="path/to/image.jpg" />*/}
+    </MetaTags>
+    <App />
+  </div>,
+  document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
