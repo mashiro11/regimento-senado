@@ -13,7 +13,9 @@ ReactDOM.render(
       <title>RISF Interativo</title>
       <meta name="description" content="Regimento Interno Interativo do Senado Federal" />
       <meta property="og:title" content="RISF Interativo" />
-      {/*}<meta property="og:image" content="path/to/image.jpg" />*/}
+      {/*
+        <meta property="og:image" content="path/to/image.jpg" />
+      */}
     </MetaTags>
     <App />
   </div>,
