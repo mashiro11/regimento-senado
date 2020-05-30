@@ -112,11 +112,11 @@
 	}
 ,	"6":{
 		"caput":"Nos casos dos arts. 4º, § 5º, e 5º, § 1º, havendo requerimento e findo o prazo sem ter sido votado, considerar-se-á como concedida a prorrogação.",
-		"citacao":[{"texto":"§ 5º,","link":""},{"texto":"§ 1º,","link":""}]
+		"citacao":[{"texto":"arts. 4º,","link":""},{"texto":"§ 5º,","link":""},{"texto":"§ 1º,","link":""}]
 	}
 ,	"7":{
 		"caput":"Por ocasião da posse, o Senador ou Suplente convocado comunicará à Mesa, por escrito, o nome parlamentar com que deverá figurar nas publicações e registros da Casa e a sua filiação partidária, observando o disposto no art. 78, parágrafo único.",
-		"citacao":[{"texto":"art. 78,","link":""},{"texto":"parágrafo único.","link":""}],
+		"citacao":[{"texto":"art. 78,","link":""}],
 		"enumeravel": [{
 			"tipo":"paragrafo",
 			"lista":{
@@ -248,7 +248,7 @@
 					}
 ,					"6":{
 						"caput":"no encaminhamento de votação (art. 308 e parágrafo único do art. 310), uma só vez, por cinco minutos;",
-						"citacao":[{"texto":"(art. 308","link":""},{"texto":"parágrafo único","link":""},{"texto":"art. 310),","link":""}]
+						"citacao":[{"texto":"(art. 308","link":""},{"texto":"art. 310),","link":""}]
 					}
 ,					"7":{
 						"caput":"no encaminhamento de votação de proposição em regime de urgência (art. 336), uma só vez, por cinco minutos, o relator da comissão de mérito e os líderes de partido ou bloco parlamentar ou Senadores por eles designados;",
@@ -373,7 +373,8 @@
 										"citacao":[{"texto":"art. 336,","link":""}]
 									}
 ,									"2":{
-										"caput":"votação não realizada no momento oportuno, por falta de número (arts. 304 e 305);"
+										"caput":"votação não realizada no momento oportuno, por falta de número (arts. 304 e 305);",
+										"citacao":[{"texto":"(arts. 304","link":""}]
 									}
 ,									"3":{
 										"caput":"comunicação importante;"
@@ -585,7 +586,7 @@
 	}
 ,	"30":{
 		"caput":"Considerar-se-á como tendo renunciado (arts. 4º, § 6º, e 5º, § 1º):",
-		"citacao":[{"texto":"§ 6º,","link":""},{"texto":"§ 1º):","link":""}],
+		"citacao":[{"texto":"(arts. 4º,","link":""},{"texto":"§ 6º,","link":""},{"texto":"§ 1º):","link":""}],
 		"enumeravel": [{
 			"tipo":"inciso",
 			"lista":{
@@ -783,7 +784,7 @@
 	}
 ,	"44-A":{
 		"caput":"Considerar-se-á como licença autorizada, para os fins do disposto no art. 55, III, da Constituição, e no art. 38, parágrafo único, deste Regimento, a ausência às sessões de Senador candidato à Presidência ou Vice-Presidência da República, no período compreendido entre o registro da candidatura no Tribunal Superior Eleitoral e a apuração do respectivo pleito.",
-		"citacao":[{"texto":"art. 55,","link":""},{"texto":"art. 38,","link":""},{"texto":"parágrafo único,","link":""}],
+		"citacao":[{"texto":"art. 55,","link":""},{"texto":"art. 38,","link":""}],
 		"enumeravel": [{
 			"tipo":"paragrafo",
 			"lista":{
@@ -830,7 +831,7 @@
 			"lista":{
 					"1":{
 						"caput":"exercer as atribuições previstas nos arts. 57, § 6º, I e II, 66, § 7º, e 80 da Constituição;",
-						"citacao":[{"texto":"§ 6º,","link":""},{"texto":"§ 7º,","link":""}]
+						"citacao":[{"texto":"arts. 57,","link":""},{"texto":"§ 6º,","link":""},{"texto":"§ 7º,","link":""}]
 					}
 ,					"2":{
 						"caput":"velar pelo respeito às prerrogativas do Senado e às imunidades dos Senadores;"
@@ -908,7 +909,7 @@
 					}
 ,					"26":{
 						"caput":"despachar os requerimentos constantes do parágrafo único do art. 214 e do inciso II do art. 215;",
-						"citacao":[{"texto":"parágrafo único","link":""},{"texto":"art. 214","link":""},{"texto":"art. 215;","link":""}]
+						"citacao":[{"texto":"art. 214","link":""},{"texto":"art. 215;","link":""}]
 					}
 ,					"27":{
 						"caput":"assinar os autógrafos dos projetos e emendas a serem remetidos à Câmara dos Deputados, e dos projetos destinados à sanção;"
@@ -1454,7 +1455,7 @@
 			"lista":{
 					"1":{
 						"caput":"A substituição de membro da comissão que se desligar do partido ao qual pertence o lugar na comissão não alterará a proporcionalidade estabelecida nos termos do parágrafo único do art. 78 e do art. 79.",
-						"citacao":[{"texto":"parágrafo único","link":""},{"texto":"art. 78","link":""},{"texto":"art. 79.","link":""}]
+						"citacao":[{"texto":"art. 78","link":""},{"texto":"art. 79.","link":""}]
 					}
 ,					"2":{
 						"caput":"A substituição de Senador que exerça a presidência de comissão deverá ser precedida de autorização da maioria da respectiva bancada, salvo na hipótese de seu desligamento do partido que ali representar."
@@ -1496,7 +1497,8 @@
 						"caput":"eventualmente, nos seus impedimentos, para quorum nas reuniões;"
 					}
 ,					"2":{
-						"caput":"por determinados períodos, nas hipóteses previstas nos arts. 39, 40 e 43."
+						"caput":"por determinados períodos, nas hipóteses previstas nos arts. 39, 40 e 43.",
+						"citacao":[{"texto":"arts. 39,","link":""}]
 					}
 			}
 		}]
@@ -1820,7 +1822,8 @@
 						"citacao":[{"texto":"(Const., arts. 49, XIII, e 52, III, b),","link":"https://www.senado.leg.br/atividade/const/con1988/con1988_03.07.2019/art_49_.asp#conteudoConst"},{"texto":"(Const., art. 52, III, d);","link":"https://www.senado.leg.br/atividade/const/con1988/con1988_03.07.2019/art_52_.asp#conteudoConst"}]
 					}
 ,					"6":{
-						"caput":"matérias a que se referem os arts. 389, 393 e 394;"
+						"caput":"matérias a que se referem os arts. 389, 393 e 394;",
+						"citacao":[{"texto":"arts. 389,","link":""}]
 					}
 ,					"7":{
 						"caput":"outros assuntos correlatos."
@@ -1923,7 +1926,7 @@
 					}
 ,					"4":{
 						"caput":"opinar, em cumprimento a despacho da Presidência, sobre as emendas apresentadas como de redação, nas condições previstas no parágrafo único do art. 234;",
-						"citacao":[{"texto":"parágrafo único","link":""},{"texto":"art. 234;","link":""}]
+						"citacao":[{"texto":"art. 234;","link":""}]
 					}
 ,					"5":{
 						"caput":"opinar sobre assunto de natureza jurídica ou constitucional que lhe seja submetido, em consulta, pelo Presidente, de ofício, ou por deliberação do Plenário, ou por outra comissão;"
@@ -2132,6 +2135,7 @@
 	}
 ,	"102-D":{
 		"caput":"Aplicam-se à Comissão de Transparência, Governança, Fiscalização e Controle e Defesa do Consumidor as normas regimentais pertinentes às demais comissões permanentes, no que não conflitarem com os termos das disposições constantes dos arts. 102-A a 102-C.",
+		"citacao":[{"texto":"arts. 102-A","link":""}],
 		"enumeravel": [{
 			"tipo":"paragrafo",
 			"lista":{
@@ -3110,6 +3114,7 @@
 	}
 ,	"155":{
 		"caput":"A sessão terá início de segunda a quinta-feira, às quatorze horas, e, às sextas-feiras, às nove horas, pelo relógio do plenário, presentes no recinto pelo menos um vigésimo da composição do Senado, e terá a duração máxima de quatro horas e trinta minutos, salvo prorrogação, ou no caso do disposto nos arts. 178 e 179.",
+		"citacao":[{"texto":"arts. 178","link":""}],
 		"enumeravel": [{
 			"tipo":"paragrafo",
 			"lista":{
@@ -3347,7 +3352,8 @@
 		}]
 	}
 ,	"171":{
-		"caput":"A matéria dependente de exame das comissões só será incluída em Ordem do Dia depois de emitidos os pareceres, lidos no Período do Expediente, publicados no Diário do Senado Federal e em avulso eletrônico, observado o interstício regimental (arts. 280 e 281)."
+		"caput":"A matéria dependente de exame das comissões só será incluída em Ordem do Dia depois de emitidos os pareceres, lidos no Período do Expediente, publicados no Diário do Senado Federal e em avulso eletrônico, observado o interstício regimental (arts. 280 e 281).",
+		"citacao":[{"texto":"(arts. 280","link":""}]
 	}
 ,	"172":{
 		"caput":"A inclusão em Ordem do Dia de proposição em rito normal, sem que esteja instruída com pareceres das comissões a que houver sido distribuída, só é admissível nas seguintes hipóteses:",
@@ -3476,7 +3482,7 @@
 	}
 ,	"185":{
 		"caput":"Em sessão secreta, somente os Senadores terão ingresso no plenário e dependências anexas, ressalvados o disposto no parágrafo único do art. 192 e os casos em que o Senado conceda autorização a outras pessoas para a ela assistirem, mediante proposta da Presidência ou de líder.",
-		"citacao":[{"texto":"parágrafo único","link":""},{"texto":"art. 192","link":""}]
+		"citacao":[{"texto":"art. 192","link":""}]
 	}
 ,	"186":{
 		"caput":"A reportagem fotográfica no recinto, a irradiação sonora, a filmagem e a transmissão em televisão das sessões dependem de autorização do Presidente do Senado."
@@ -3799,7 +3805,8 @@
 		}]
 	}
 ,	"213-A":{
-		"caput":"É facultado a qualquer Senador ou comissão oferecer projeto de lei de consolidação, atendidos os princípios de que tratam os arts. 13, 14 e 15 da Lei Complementar nº 95, de 26 de fevereiro de 1998, vedada a alteração no mérito das normas que serviram de base para a consolidação."
+		"caput":"É facultado a qualquer Senador ou comissão oferecer projeto de lei de consolidação, atendidos os princípios de que tratam os arts. 13, 14 e 15 da Lei Complementar nº 95, de 26 de fevereiro de 1998, vedada a alteração no mérito das normas que serviram de base para a consolidação.",
+		"citacao":[{"texto":"arts. 13,","link":""}]
 	}
 ,	"213-B":{
 		"caput":"O projeto recebido será lido, numerado, publicado e distribuído à comissão que guardar maior pertinência quanto à matéria, que se pronunciará sobre o atendimento ao princípio de preservação do conteúdo original das normas consolidadas.",
@@ -3850,7 +3857,8 @@
 		"caput":"Após a entrada em vigor da lei de consolidação, deverão fazer-lhe expressa remissão todos os projetos vinculados à matéria."
 	}
 ,	"213-E":{
-		"caput":"Aplicam-se os mesmos procedimentos previstos nos arts. 213-B, 213-C e 213-D aos projetos de lei de consolidação originários da Câmara dos Deputados em revisão no Senado Federal e às emendas da Câmara dos Deputados a projeto de lei de consolidação originário do Senado."
+		"caput":"Aplicam-se os mesmos procedimentos previstos nos arts. 213-B, 213-C e 213-D aos projetos de lei de consolidação originários da Câmara dos Deputados em revisão no Senado Federal e às emendas da Câmara dos Deputados a projeto de lei de consolidação originário do Senado.",
+		"citacao":[{"texto":"arts. 213-B,","link":""}]
 	}
 ,	"214":{
 		"caput":"O requerimento poderá ser oral ou escrito.",
@@ -3896,7 +3904,8 @@
 										"citacao":[{"texto":"(Const., art. 50, § 2º);","link":"https://www.senado.leg.br/atividade/const/con1988/con1988_03.07.2019/art_50_.asp#conteudoConst"}]
 									}
 ,									"2":{
-										"caput":"licença (arts. 13 e 43);"
+										"caput":"licença (arts. 13 e 43);",
+										"citacao":[{"texto":"(arts. 13","link":""}]
 									}
 ,									"3":{
 										"caput":"tramitação em conjunto de proposição regulando a mesma matéria, exceto se a proposição constar da Ordem do Dia ou for objeto de parecer aprovado em comissão."
@@ -4045,6 +4054,7 @@
 	}
 ,	"221":{
 		"caput":"Além das homenagens previstas nos arts. 218 a 220, o Plenário poderá autorizar:",
+		"citacao":[{"texto":"arts. 218","link":""}],
 		"enumeravel": [{
 			"tipo":"inciso",
 			"lista":{
@@ -4233,7 +4243,7 @@
 	}
 ,	"229":{
 		"caput":"Se houver mais de um parecer, de conclusões discordantes, sobre a mesma matéria, a ser submetida ao Plenário, proceder-se-á de acordo com a norma estabelecida no art. 227, parágrafo único.",
-		"citacao":[{"texto":"art. 227,","link":""},{"texto":"parágrafo único.","link":""}]
+		"citacao":[{"texto":"art. 227,","link":""}]
 	}
 ,	"229":{
 		"caput":"Se houver mais de um parecer, de conclusões discordantes, sobre a mesma matéria, a ser submetida ao Plenário, proceder-se-á de acordo com o disposto no art. 227, § 2º, inciso II. (Redação dada pela Resolução n.º 14, de 2019)",
@@ -4418,15 +4428,14 @@
 		}]
 	}
 ,	"236":{
-		"caput":"As proposições devem ser escritas em termos concisos e claros e divididas, sempre que possível, em artigos, parágrafos, incisos e alíneas.",
-		"citacao":[{"texto":"parágrafos, incisos","link":""}]
+		"caput":"As proposições devem ser escritas em termos concisos e claros e divididas, sempre que possível, em artigos, parágrafos, incisos e alíneas."
 	}
 ,	"237":{
 		"caput":"Os projetos, pareceres e indicações devem ser encimados por ementa."
 	}
 ,	"238":{
 		"caput":"As proposições, salvo os requerimentos, devem ser acompanhadas de justificação oral ou escrita, observado o disposto no parágrafo único do art. 233.",
-		"citacao":[{"texto":"parágrafo único","link":""},{"texto":"art. 233.","link":""}],
+		"citacao":[{"texto":"art. 233.","link":""}],
 		"enumeravel": [{
 			"tipo":"paragrafo",
 			"lista":{
@@ -4586,7 +4595,7 @@
 					}
 ,					"2":{
 						"caput":"de decisão do Presidente, nos casos do art. 214, parágrafo único, e art. 215, II;",
-						"citacao":[{"texto":"art. 214,","link":""},{"texto":"parágrafo único,","link":""},{"texto":"art. 215,","link":""}]
+						"citacao":[{"texto":"art. 214,","link":""},{"texto":"art. 215,","link":""}]
 					}
 ,					"3":{
 						"caput":"de deliberação de comissão, na forma do art. 91;",
@@ -4613,7 +4622,7 @@
 									}
 ,									"2":{
 										"caput":"de sobrestamento do estudo de proposição (art. 335, parágrafo único).",
-										"citacao":[{"texto":"(art. 335,","link":""},{"texto":"parágrafo único).","link":""}]
+										"citacao":[{"texto":"(art. 335,","link":""}]
 									}
 							}
 						}]
@@ -4682,7 +4691,7 @@
 									}
 ,									"7":{
 										"caput":"audiência de comissão que não tenha oferecido parecer no prazo regimental (art. 119, parágrafo único);",
-										"citacao":[{"texto":"(art. 119,","link":""},{"texto":"parágrafo único);","link":""}]
+										"citacao":[{"texto":"(art. 119,","link":""}]
 									}
 ,									"8":{
 										"caput":"dispensa de parecer da comissão que haja esgotado o prazo a ela destinado (art. 119, caput);",
@@ -4692,11 +4701,12 @@
 										"caput":"constituição de comissão temporária;"
 									}
 ,									"10":{
-										"caput":"voto de aplauso, congratulações, louvor, solidariedade ou censura (arts. 222);"
+										"caput":"voto de aplauso, congratulações, louvor, solidariedade ou censura (arts. 222);",
+										"citacao":[{"texto":"(arts. 222);","link":""}]
 									}
 ,									"11":{
 										"caput":"tramitação em conjunto, de projetos regulando a mesma matéria, quando houver parecer aprovado em comissão (art. 258, parágrafo único, in fine);",
-										"citacao":[{"texto":"(art. 258,","link":""},{"texto":"parágrafo único,","link":""}]
+										"citacao":[{"texto":"(art. 258,","link":""}]
 									}
 ,									"12":{
 										"caput":"comparecimento, ao plenário, de Ministro de Estado e titular de órgão diretamente subordinado ao Presidente da República (Const., art. 50);",
@@ -4910,7 +4920,8 @@
 		}]
 	}
 ,	"262":{
-		"caput":"Relativamente aos documentos de natureza sigilosa, observar-se-ão as normas constantes dos arts. 144 e 157, II e III, e, terminado o curso da matéria, serão recolhidos ao arquivo especial dos documentos com esse caráter, em sobrecarta fechada, rubricada pelo Presidente da Mesa, feita na capa do processo a devida anotação."
+		"caput":"Relativamente aos documentos de natureza sigilosa, observar-se-ão as normas constantes dos arts. 144 e 157, II e III, e, terminado o curso da matéria, serão recolhidos ao arquivo especial dos documentos com esse caráter, em sobrecarta fechada, rubricada pelo Presidente da Mesa, feita na capa do processo a devida anotação.",
+		"citacao":[{"texto":"arts. 144","link":""}]
 	}
 ,	"263":{
 		"caput":"As representações dirigidas à Mesa, contendo observações, sugestões ou solicitações sobre proposições em curso no Senado, serão lidas no Período do Expediente, publicadas, em súmula ou na íntegra, no Diário do Senado Federal, reunidas em processo especial e encaminhadas às respectivas comissões para conhecimento dos relatores e consulta dos demais membros, acompanhando a proposição em todas as suas fases.",
@@ -5138,7 +5149,7 @@
 	}
 ,	"287":{
 		"caput":"O substitutivo da Câmara a projeto do Senado será considerado série de emendas e votado, separadamente, por artigos, parágrafos, incisos, alíneas e itens, em correspondência aos do projeto emendado, salvo aprovação de requerimento para votação em globo ou por grupos de dispositivos, obedecido o disposto no parágrafo único do art. 286.",
-		"citacao":[{"texto":"parágrafos, incisos,","link":""},{"texto":"parágrafo único","link":""},{"texto":"art. 286.","link":""}]
+		"citacao":[{"texto":"art. 286.","link":""}]
 	}
 ,	"288":{
 		"caput":"As deliberações do Senado serão tomadas por maioria de votos, presente a maioria absoluta dos seus membros (Const., art. 47), salvo nos seguintes casos, em que serão:",
@@ -5564,7 +5575,8 @@
 		"citacao":[{"texto":"art. 1º","link":""}]
 	}
 ,	"303":{
-		"caput":"A votação não se interrompe senão por falta de quorum e, observado o disposto nos arts. 178 e 179, pelo término da sessão."
+		"caput":"A votação não se interrompe senão por falta de quorum e, observado o disposto nos arts. 178 e 179, pelo término da sessão.",
+		"citacao":[{"texto":"arts. 178","link":""}]
 	}
 ,	"304":{
 		"caput":"Ocorrendo falta de número para as deliberações, passar-se-á à matéria em discussão.",
@@ -5843,7 +5855,7 @@
 	}
 ,	"323":{
 		"caput":"As emendas de redação dependem de parecer da comissão que houver elaborado a redação final, sem prejuízo do disposto no art. 234, parágrafo único.",
-		"citacao":[{"texto":"art. 234,","link":""},{"texto":"parágrafo único.","link":""}]
+		"citacao":[{"texto":"art. 234,","link":""}]
 	}
 ,	"324":{
 		"caput":"Figurando a redação final na Ordem do Dia, se sua discussão for encerrada sem emendas ou retificações, será considerada definitivamente aprovada, sem votação, a não ser que algum Senador requeira seja submetida a votos."
@@ -6025,7 +6037,8 @@
 						"citacao":[{"texto":"art. 336,","link":""}]
 					}
 ,					"5":{
-						"caput":"pela Comissão de Assuntos Econômicos, quando se tratar de pedido de autorização para realizar operações de crédito previstas nos arts. 28 e 33 da Resolução nº 43, de 2001."
+						"caput":"pela Comissão de Assuntos Econômicos, quando se tratar de pedido de autorização para realizar operações de crédito previstas nos arts. 28 e 33 da Resolução nº 43, de 2001.",
+						"citacao":[{"texto":"arts. 28","link":""}]
 					}
 			}
 		}]
@@ -6552,7 +6565,8 @@
 		}]
 	}
 ,	"382":{
-		"caput":"No processo e julgamento a que se referem os arts. 377 a 381 aplicar-se á, no que couber, o disposto na Lei nº 1.079, de 10 de abril de 1950."
+		"caput":"No processo e julgamento a que se referem os arts. 377 a 381 aplicar-se á, no que couber, o disposto na Lei nº 1.079, de 10 de abril de 1950.",
+		"citacao":[{"texto":"arts. 377","link":""}]
 	}
 ,	"383":{
 		"caput":"Na apreciação do Senado Federal sobre a escolha de autoridades, observar-se-ão as seguintes normas:",
@@ -6780,7 +6794,8 @@
 		"caput":"Qualquer modificação nos compromissos originariamente assumidos dependerá de nova autorização do Senado."
 	}
 ,	"392":{
-		"caput":"O disposto nos arts. 389 a 391 aplicar-se-á, também, aos casos de aval da União, Estado, Distrito Federal ou Município, para a contratação de empréstimo externo por entidade autárquica subordinada ao Governo Federal, Estadual ou Municipal."
+		"caput":"O disposto nos arts. 389 a 391 aplicar-se-á, também, aos casos de aval da União, Estado, Distrito Federal ou Município, para a contratação de empréstimo externo por entidade autárquica subordinada ao Governo Federal, Estadual ou Municipal.",
+		"citacao":[{"texto":"arts. 389","link":""}]
 	}
 ,	"393":{
 		"caput":"Compete ao Senado:",
@@ -6972,10 +6987,12 @@
 		}]
 	}
 ,	"395":{
-		"caput":"As matérias a que se referem os arts. 393 e 394 terão a tramitação regimental prevista para os demais projetos de resolução."
+		"caput":"As matérias a que se referem os arts. 393 e 394 terão a tramitação regimental prevista para os demais projetos de resolução.",
+		"citacao":[{"texto":"arts. 393","link":""}]
 	}
 ,	"396":{
-		"caput":"O Senado Federal remeterá o texto da resolução a que se referem os arts. 389 a 394 ao Presidente da República, aos Governadores, às Assembleias Legislativas, à Câmara Legislativa do Distrito Federal e aos Prefeitos e Câmaras de Vereadores dos Municípios interessados, com a indicação da sua publicação no Diário do Senado Federal e no Diário Oficial da União."
+		"caput":"O Senado Federal remeterá o texto da resolução a que se referem os arts. 389 a 394 ao Presidente da República, aos Governadores, às Assembleias Legislativas, à Câmara Legislativa do Distrito Federal e aos Prefeitos e Câmaras de Vereadores dos Municípios interessados, com a indicação da sua publicação no Diário do Senado Federal e no Diário Oficial da União.",
+		"citacao":[{"texto":"arts. 389","link":""}]
 	}
 ,	"397":{
 		"caput":"O Ministro de Estado comparecerá perante o Senado:",
@@ -7044,7 +7061,8 @@
 		"citacao":[{"texto":"art. 397,","link":""}]
 	}
 ,	"400":{
-		"caput":"O disposto nos arts. 397 a 399 aplica-se, quando possível, aos casos de comparecimento de Ministro a reunião de comissão."
+		"caput":"O disposto nos arts. 397 a 399 aplica-se, quando possível, aos casos de comparecimento de Ministro a reunião de comissão.",
+		"citacao":[{"texto":"arts. 397","link":""}]
 	}
 ,	"400-A":{
 		"caput":"Aplica-se o disposto neste Título, no que couber, ao comparecimento ao Senado de titulares de órgãos diretamente subordinados à Presidência da República (Const., art. 50).",

@@ -5,15 +5,19 @@ import Button from '@material-ui/core/Button'
 import { AppDispatch } from '../../App.js'
 import romanize from '../../romanize'
 
-const formatCitacao = (onClick, texto, citacao, index) => {
-  const substringA = texto.substring(0, texto.indexOf(citacao[0].texto))
-  const substringB = texto.substring(texto.indexOf(citacao[0].texto) + citacao[0].texto.length)
+const format = (onClick, texto, citacao, index = 0) => {
+  console.log('texto:', texto, 'index:', index, 'citacao:', citacao)
+  const substringA = texto.substring(0, texto.indexOf(citacao[index].texto))
+  const substringB = texto.substring(texto.indexOf(citacao[index].texto) + citacao[index].texto.length)
   const citacoes = citacao.slice(1)
-  return <span>
-            {substringA}
-            <Button onClick={onClick(citacao[0].link)} key={index}>{citacao[0].texto}</Button>
-            {citacoes.length > 0 ? formatCitacao(substringB, citacoes, index + 1) : substringB}
-          </span>
+
+  return(
+    <span>
+      {substringA}
+      <Button onClick={onClick(citacao[index].link)} key={index}>{citacao[index].texto}</Button>
+      {index < citacao.length - 1 ? format(onClick, substringB, citacao, index + 1) : substringB}
+    </span>
+    )
 }
 
 const Enumeravel = ({lista, tipo}) => {
@@ -39,8 +43,7 @@ const Enumeravel = ({lista, tipo}) => {
       {lista && Object.keys(lista).map( (key, index) =>
         <div key={index}>
           {lista[key].citacao ?
-            <span>{prefixo(key) + lista[key].caput}</span>
-            /*formatCitacao(onClick, lista[key].caput, lista[key].citacao, 0)*/
+            <span>{prefixo(key) } {format(onClick, lista[key].caput, lista[key].citacao)}</span>
             : <span>{prefixo(key) + lista[key].caput}</span>
           }
           {lista[key].enumeravel ?
