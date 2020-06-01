@@ -2,7 +2,7 @@ import React from 'react'
 
 import Button from '@material-ui/core/Button'
 
-import { AppContext } from '../../App.js'
+import { AppContext } from '../../AppContext'
 import romanize from '../../romanize'
 
 const format = (onClick, texto, citacao, index = 0) => {
@@ -23,7 +23,7 @@ const format = (onClick, texto, citacao, index = 0) => {
 }
 
 const Enumeravel = ({lista, tipo}) => {
-    const dispatch = React.useContext(AppContext)
+    const { state, dispatch }  = React.useContext(AppContext)
     const onClick = (type, link) => () => type === 'link' ?
                                             dispatch({type: 'CHANGE_CITATION', citacaoLink: link})
                                             :dispatch({type: 'REFERENCE_CITATION', reference: link})

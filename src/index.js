@@ -6,6 +6,8 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import MetaTags from 'react-meta-tags'
+import { AppContextProvider } from './AppContext'
+
 
 ReactDOM.render(
   <div>
@@ -17,7 +19,9 @@ ReactDOM.render(
         <meta property="og:image" content="path/to/image.jpg" />
       */}
     </MetaTags>
-    <App />
+    <AppContextProvider>
+      <App />
+    </AppContextProvider>
   </div>,
   document.getElementById('root'));
 
