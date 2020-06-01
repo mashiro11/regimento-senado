@@ -18,8 +18,8 @@ function App() {
         <div>
           <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr'}}>
             <div>
-              {Object.keys(regimento.group).map((groupKey, index)=>
-                <GroupRenderer groupName={regimento.groupName} unit={{[groupKey]:regimento.group[groupKey]}} index={index} key={index} />
+              {regimento.group.map((group, index)=>
+                <GroupRenderer groupName={regimento.groupName} unit={group} index={index} key={index} />
               )}
             </div>
             <iframe title={'Consituição Federal 1988'} width={'100%'} height={'100%'} src={state.citacaoLink}>Citacao</iframe>
