@@ -10,7 +10,7 @@ const regimento = {
         'DA SEDE':{
           artigos: getArtigos(1)
         },
-        'DAS SESSÕES':{
+        'DAS SESSÕES LEGISLATIVAS':{
           artigos: getArtigos(2)
         },
         'DAS REUNIÕES PREPARATÓRIAS':{
@@ -95,6 +95,7 @@ const regimento = {
           artigos: getArtigos(88, 89)
         },
         'DA COMPETÊNCIA':{
+          groupName: 'Seção',
           sessoes:{
             'Disposições Gerais':{
               artigos: getArtigos(90, 96)
@@ -107,7 +108,6 @@ const regimento = {
         'DAS REUNIÕES':{
           artigos: getArtigos(106, 117)
         },
-
         'DOS PRAZOS':{
           artigos: getArtigos(118, 121)
         },
@@ -118,11 +118,14 @@ const regimento = {
             artigos: getArtigos(126, 129)
         },
         'DOS RELATÓRIOS PARECERES':{
-          'Dos Relatórios':{
-            artigos: getArtigos(130, 132)
-          },
-          'Dos Pareceres':{
-            artigos: getArtigos(133, 141)
+          groupName: 'Seção',
+          group:{
+            'Dos Relatórios':{
+              artigos: getArtigos(130, 132)
+            },
+            'Dos Pareceres':{
+              artigos: getArtigos(133, 141)
+            }
           }
         },
         'DAS DILIGÊNCIAS':{
@@ -143,16 +146,50 @@ const regimento = {
           artigos: getArtigos(154)
         },
         'DA SESSÃO PÚBLICA':{
-          artigos: getArtigos(155)
+          groupName: 'Seção',
+          group:{
+            'DA ABERTURA E DURAÇÃO':{
+              artigos: getArtigos(155)
+            },
+            'DO PERÍODO DO EXPEDIENTE':{
+              artigos: getArtigos(156, 161)
+            },
+            'DA ORDEM DO DIA':{
+              artigos: getArtigos(162, 176)
+            },
+            'DO TÉRMINO DO TEMPO DE SESSÃO':{
+              artigos: getArtigos(177, 179)
+            },
+            'DA PRORROGAÇÃO DA SESSÃO':{
+              artigos: getArtigos(180, 181)
+            },
+            'DA ASSISTÊNCIA À SESSÃO':{
+              artigos: getArtigos(182, 185)
+            },
+            'DA DIVULGAÇÃO DAS SESSÕES':{
+              artigos: getArtigos(186)
+            },
+            'DA SESSÃO DELIBERATIVA EXTRAORDINÁRIA':{
+              artigos: getArtigos(187, 189)
+            },
+          }
         },
         'DA SESSÃO SECRETA':{
-          artigos: getArtigos(156, 161)
+          artigos: getArtigos(190, 198)
         },
         'DA SESSÃO ESPECIAL':{
-          artigos: getArtigos(162, 176)
+          artigos: getArtigos(199, 200)
         },
         'DAS ATAS E DOS ANAIS DAS SESSÕES':{
-          artigos: getArtigos(177, 179)
+          groupName: 'Seção',
+          group:{
+            'DAS ATAS':{
+              artigos: getArtigos(201, 208)
+            },
+            'DOS ANAIS':{
+              artigos: getArtigos(209, 210)
+            }
+          }
         }
       }
     },
@@ -160,144 +197,166 @@ const regimento = {
       groupName: "Capítulo",
       group:{
         'DAS ESPÉCIES':{
+          artigos:{
+            artigos: getArtigos(211)
+          },
           groupName: "Seção",
           group:{
             'Das Propostas de Emenda à Constituição':{
-              artigos: getArtigos(180, 181)
+              artigos: getArtigos(212)
             },
             'Dos Projetos':{
               groupName: "Subseção",
               group:{
                 'Dos Projetos em Geral':{
-                  artigos: getArtigos(182, 185)
+                  artigos: getArtigos(213)
                 },
                 'Dos Projetos de Lei de Consolidação':{
-                  artigos: getArtigos(186)
+                  artigos: getArtigos(213)
                 }
               }
             },
             'Dos Requerimentos':{
-              'Disposições Gerais':{
-              },
-              'Dos Requerimentos de Informações':{
-                artigos: getArtigos(187, 189)
-              },
-              'Dos Requerimentos de Homenagem de Pesar':{
-                artigos: getArtigos(190, 198)
-              },
-              'Dos Requerimentos de Voto de Aplauso ou Semelhante':{
-                artigos: getArtigos(199, 200)
+              groupName: 'Subseção',
+              group:{
+                'Disposições Gerais':{
+                  artigos: getArtigos(214, 215)
+                },
+                'Dos Requerimentos de Informações (Const. art. 50, § 2º)':{
+                  artigos: getArtigos(216, 217)
+                },
+                'Dos Requerimentos de Homenagem de Pesar':{
+                  artigos: getArtigos(218, 221)
+                },
+                'Dos Requerimentos de Voto de Aplauso ou Semelhante':{
+                  artigos: getArtigos(222, 223)
+                }
               },
             },
             'Das Indicações':{
-                artigos: getArtigos(201, 208)
+                artigos: getArtigos(224, 227)
             },
             'Dos Pareceres':{
-              artigos: getArtigos(209, 210)
+              artigos: getArtigos(228, 229)
             },
             'Das Emendas':{
-              artigos: getArtigos(328, 331)
+              artigos: getArtigos(230, 234)
             }
           }
         },
         'DA APRESENTAÇÃO DAS PROPOSIÇÕES':{
-          artigos: getArtigos(328, 331)
+          artigos: getArtigos(235, 240)
         },
         'DA LEITURA DAS PROPOSIÇÕES':{
-          artigos: getArtigos(328, 331)
+          artigos: getArtigos(241, 242)
         },
         'DA AUTORIA':{
-          artigos: getArtigos(328, 331)
+          artigos: getArtigos(243, 245)
         },
         'DA NUMERAÇÃO DAS PROPOSIÇÕES':{
-          artigos: getArtigos(328, 331)
+          artigos: getArtigos(246)
         },
         'DO APOIAMENTO DAS PROPOSIÇÕES':{
-          artigos: getArtigos(328, 331)
+          artigos: getArtigos(247, 248)
         },
         'DA PUBLICAÇÃO DAS PROPOSIÇÕES':{
-          artigos: getArtigos(328, 331)
+          artigos: getArtigos(249, 250)
         },
         'DA TRAMITAÇÃO DAS PROPOSIÇÕES':{
-          artigos: getArtigos(328, 331)
+          artigos: getArtigos(251, 255)
+        },
+        'DA RETIRADA DAS PROPOSIÇÕES':{
+          artigos: getArtigos(256, 257)
+        },
+        'DA TRAMITAÇÃO EM CONJUNTO DAS PROPOSIÇÕES':{
+          artigos: getArtigos(258, 260)
+        },
+        'DOS PROCESSOS REFERENTES ÀS PROPOSIÇÕES':{
+          artigos: getArtigos(261, 268)
+        },
+        'DAS SINOPSES E RESENHAS DAS PROPOSIÇÕES':{
+          artigos: getArtigos(269)
         },
         'DA APRECIAÇÃO DAS PROPOSIÇÕES':{
-          sessoes:{
+          groupName: 'Seção',
+          group:{
             'Dos Turnos':{
-              artigos: getArtigos(328, 331)
+              artigos: getArtigos(270, 271)
             },
             'Da Discussão':{
-              subsessoes:{
+              groupName: 'Subseção',
+              group:{
                 'Disposições Gerais':{
-                  artigos: getArtigos(328, 331)
+                  artigos: getArtigos(272, 274)
                 },
                 'Do Encerramento da Discussão':{
-                  artigos: getArtigos(328, 331)
+                  artigos: getArtigos(275)
                 },
                 'Da Dispensa da Discussão':{
-                  artigos: getArtigos(328, 331)
+                  artigos: getArtigos(276)
                 },
                 'Da Proposição Emendada':{
-                  artigos: getArtigos(328, 331)
+                  artigos: getArtigos(277, 278)
                 },
                 'Do Adiamento da Discussão':{
-                  artigos: getArtigos(328, 331)
+                  artigos: getArtigos(279)
                 },
               }
             },
             'Do Interstício':{
-              artigos: getArtigos(328, 331)
+              artigos: getArtigos(280, 281)
             },
             'Do Turno Suplementar':{
-              artigos: getArtigos(328, 331)
+              artigos: getArtigos(282, 284)
             },
             'Das Emendas da Câmara a Projeto do Senado':{
-              artigos: getArtigos(328, 331)
+              artigos: getArtigos(285, 287)
             },
             'Da Votação':{
-              subsessoes:{
+              groupName: 'Subseção',
+              group:{
                 'Da Votação':{
-                  artigos: getArtigos(328, 331)
+                  artigos: getArtigos(288)
                 },
                 'Das Modalidades de Votação':{
-                  artigos: getArtigos(328, 331)
+                  artigos: getArtigos(289, 292)
                 },
                 'Da votação Ostensiva':{
-                  artigos: getArtigos(328, 331)
+                  artigos: getArtigos(293, 294)
                 },
                 'Da Votação Secreta':{
-                  artigos: getArtigos(328, 331)
+                  artigos: getArtigos(295, 297)
                 },
                 'Da Proclamação do Resultado da Votação':{
-                  artigos: getArtigos(328, 331)
+                  artigos: getArtigos(298)
                 },
                 'Do Processamento da Votação':{
-                  artigos: getArtigos(328, 331)
+                  artigos: getArtigos(299, 307)
                 },
                 'Do Encaminhamento da Votação':{
-                  artigos: getArtigos(328, 331)
+                  artigos: getArtigos(308, 310)
                 },
                 'Da Preferência':{
-                  artigos: getArtigos(328, 331)
+                  artigos: getArtigos(311)
                 },
                 'Do Destaque':{
-                  artigos: getArtigos(315)
+                  artigos: getArtigos(312,314)
                 },
                 'Do Adiamento da Votação':{
-                  artigos: getArtigos(316)
+                  artigos: getArtigos(315)
                 },
                 'Da Declaração de Voto':{
-                  artigos: getArtigos(317, 324)
+                  artigos: getArtigos(316)
                 },
               }
             }
           }
         },
         'DA REDAÇÃO PARA O TURNO SUPLEMENTAR E DA REDAÇÃO FINAL':{
-          artigos: getArtigos(325, 327)
+          artigos: getArtigos(317, 324)
         },
         'DA CORREÇÃO DE ERRO':{
-          artigos: getArtigos(328, 327)
+          artigos: getArtigos(325, 327)
         },
         'DOS AUTÓGRAFOS':{
           artigos: getArtigos(328, 331)
@@ -312,7 +371,8 @@ const regimento = {
           artigos: getArtigos(335)
         },
         'DA URGÊNCIA':{
-          sessoes:{
+          groupName: 'Seção',
+          group:{
             'Disposições Gerais':{
               artigos: getArtigos(336, 338)
             },
@@ -333,7 +393,8 @@ const regimento = {
       }
     },
     'DAS PROPOSIÇÕES SUJEITAS A DISPOSIÇÕES ESPECIAIS':{
-      capitulos:{
+      groupName:'Capítulo',
+      group:{
         'DA PROPOSTA DE EMENDA À CONSTINTUIÇÃO':{
           artigos: getArtigos(354, 373)
         },
@@ -343,24 +404,26 @@ const regimento = {
         'DOS PROJETOS COM TRAMITAÇÃO URGENTE ESTABELECIDA PELA CONSTITUIÇÃO':{
           artigos: getArtigos(375)
         },
-        'DOS PROJETOS REFERENTES A ATOS INTERNACIONAIS':{
+        'DOS PROJETOS REFERENTES A ATOS INTERNACIONAIS (Const., Art. 49, I)':{
           artigos: getArtigos(376)
         }
       }
     },
     'DAS ATRIBUIÇÕES PRIVATIVAS':{
-      capitulos:{
+      groupName: 'Capítulo',
+      group:{
         'DO FUNCIONAMENTO COMO ÓRGÃO JUDICIÁRIO':{
           artigos: getArtigos(377, 382)
         },
-        'DA ESCOLHA DE AUTORIDADES':{
+        'DA ESCOLHA DE AUTORIDADES (Const., Art. 52, III e IV)':{
           artigos: getArtigos(383, 385)
         },
-        'DA SUSPENSÃO DA EXECUÇÃO DE LEI INCONSTITUCIONAL':{
+        'DA SUSPENSÃO DA EXECUÇÃO DE LEI INCONSTITUCIONAL (Const., Art. 52, X)':{
           artigos: getArtigos(386, 388)
         },
         'DAS ATRIBUIÇÕES PREVISTAS NOS ART. 52 E 155 DA CONSTITUIÇÃO':{
-          sessoes:{
+          groupName: 'Seção',
+          group:{
             'Da Autorização para Operações Externas de Natureza Financeira':{
               artigos: getArtigos(389, 392)
             },
@@ -393,8 +456,8 @@ const regimento = {
       artigos: getArtigos(409, 411)
     },
     'DOS PRINCÍPIOS GERAIS DO PROCESSO LEGISLATIVO':{
-    artigos: getArtigos(412, 413)
-  },
+      artigos: getArtigos(412, 413)
+    },
   }
 }
 
