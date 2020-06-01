@@ -18,9 +18,9 @@ const GroupRenderer = ({groupName, unit, index}) => {
     }
   )
   return (
-    <ExpansionPanel style={index % 2 === 0 ? {backgroundColor: '#EEEEEE'} :{}}>
+    <ExpansionPanel expanded={open} style={index % 2 === 0 ? {backgroundColor: '#EEEEEE'} :{}}>
       <ExpansionPanelSummary>{groupName} {romanize(index + 1)} - {unitKey}</ExpansionPanelSummary>
-      <ExpansionPanelDetails expanded={open}>
+      <ExpansionPanelDetails>
         <div>
           {unit[unitKey].artigos ?
             <Enumeravel lista={unit[unitKey].artigos} tipo='artigo' key={0}/>
