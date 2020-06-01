@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/regimento-senado/static/css/main.cfda8877.chunk.css",
-    "main.js": "/regimento-senado/static/js/main.34f78000.chunk.js",
-    "main.js.map": "/regimento-senado/static/js/main.34f78000.chunk.js.map",
+    "main.js": "/regimento-senado/static/js/main.7bae03a6.chunk.js",
+    "main.js.map": "/regimento-senado/static/js/main.7bae03a6.chunk.js.map",
     "runtime-main.js": "/regimento-senado/static/js/runtime-main.0d2c9e84.js",
     "runtime-main.js.map": "/regimento-senado/static/js/runtime-main.0d2c9e84.js.map",
-    "static/js/2.f89cf072.chunk.js": "/regimento-senado/static/js/2.f89cf072.chunk.js",
-    "static/js/2.f89cf072.chunk.js.map": "/regimento-senado/static/js/2.f89cf072.chunk.js.map",
+    "static/js/2.abdb54d9.chunk.js": "/regimento-senado/static/js/2.abdb54d9.chunk.js",
+    "static/js/2.abdb54d9.chunk.js.map": "/regimento-senado/static/js/2.abdb54d9.chunk.js.map",
     "index.html": "/regimento-senado/index.html",
-    "precache-manifest.41643cb270d0b6718442077419b1754a.js": "/regimento-senado/precache-manifest.41643cb270d0b6718442077419b1754a.js",
+    "precache-manifest.184b2955fdc4e64ce9b47bb932f7711c.js": "/regimento-senado/precache-manifest.184b2955fdc4e64ce9b47bb932f7711c.js",
     "service-worker.js": "/regimento-senado/service-worker.js",
     "static/css/main.cfda8877.chunk.css.map": "/regimento-senado/static/css/main.cfda8877.chunk.css.map",
-    "static/js/2.f89cf072.chunk.js.LICENSE.txt": "/regimento-senado/static/js/2.f89cf072.chunk.js.LICENSE.txt"
+    "static/js/2.abdb54d9.chunk.js.LICENSE.txt": "/regimento-senado/static/js/2.abdb54d9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0d2c9e84.js",
-    "static/js/2.f89cf072.chunk.js",
+    "static/js/2.abdb54d9.chunk.js",
     "static/css/main.cfda8877.chunk.css",
-    "static/js/main.34f78000.chunk.js"
+    "static/js/main.7bae03a6.chunk.js"
   ]
 }
