@@ -41,11 +41,10 @@ const Enumeravel = ({lista, tipo}) => {
                   :tipo === 'numerico' ?
                     (index) => `${index} - `
                   :()=>{}
-
   return(
     <div>
       {lista && Object.keys(lista).map( (key, index) =>
-        <div key={index}>
+        <div id={ tipo === 'artigo' ? 'art.' + key : null }key={index}>
           {lista[key].citacao ?
             <span>{prefixo(key) } {format(onClick, lista[key].caput, lista[key].citacao)}</span>
             : <span>{prefixo(key) + lista[key].caput}</span>

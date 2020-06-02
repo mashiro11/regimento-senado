@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.blink {
+  animation: color-me-in 2s;
+}
+
+@keyframes color-me-in {
+  /* You could think of as "step 1" */
+  0% {
+    background: orange;
+  }
+  /* You could think of as "step 2" */
+  100% {
+    background: "#EEEEEE";
+  }
+}

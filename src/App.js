@@ -22,7 +22,7 @@ function App() {
           </div>
           <iframe title={'Consituição Federal 1988'} width={'100%'} height={'100%'} src={state.citacaoLink}>Citacao</iframe>
         </div>
-      </div>  
+      </div>
     </div>
   );
 }
