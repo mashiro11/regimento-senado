@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d97da533a8f25f87360bfb241a784dce",
+    "revision": "ef36447c006ed368862968c707e03b97",
     "url": "/regimento-senado/index.html"
   },
   {
-    "revision": "96467377bea4534fbdda",
-    "url": "/regimento-senado/static/css/main.cfda8877.chunk.css"
+    "revision": "c08d485eba6ff02672da",
+    "url": "/regimento-senado/static/css/main.fd90fda4.chunk.css"
   },
   {
     "revision": "54c3b99e10cb702dfd24",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/regimento-senado/static/js/2.abdb54d9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "96467377bea4534fbdda",
-    "url": "/regimento-senado/static/js/main.a3359a4e.chunk.js"
+    "revision": "c08d485eba6ff02672da",
+    "url": "/regimento-senado/static/js/main.f62653b9.chunk.js"
   },
   {
     "revision": "2c45e13d243a98e03dce",
